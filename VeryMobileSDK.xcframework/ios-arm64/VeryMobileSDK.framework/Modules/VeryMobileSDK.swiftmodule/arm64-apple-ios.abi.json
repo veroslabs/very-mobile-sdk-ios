@@ -6223,41 +6223,41 @@
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "StringLiteral",
       "offset": 316,
-      "length": 33,
-      "value": "\"https:\/\/api.stg.very.org\/v1\/sdk\""
+      "length": 29,
+      "value": "\"https:\/\/api.very.org\/v1\/sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 538,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "StringLiteral",
-      "offset": 1959,
+      "offset": 1955,
       "length": 13,
       "value": "\"VerySDK-Api\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3143,
+      "offset": 3139,
       "length": 5,
       "value": "-1001"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3201,
+      "offset": 3197,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3741,
+      "offset": 3737,
       "length": 5,
       "value": "-1009"
     },
@@ -6950,7 +6950,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45004,
+      "offset": 45416,
       "length": 2,
       "value": "56"
     },
