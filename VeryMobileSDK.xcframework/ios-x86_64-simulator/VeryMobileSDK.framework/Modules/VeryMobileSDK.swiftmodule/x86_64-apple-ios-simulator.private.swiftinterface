@@ -7,7 +7,6 @@ import AVKit
 import CommonCrypto
 import CoreText
 import Foundation
-import Lottie
 import ObjectiveC
 import Swift
 import UIKit

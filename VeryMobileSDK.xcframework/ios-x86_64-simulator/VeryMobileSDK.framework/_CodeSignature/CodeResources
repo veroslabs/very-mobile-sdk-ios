@@ -142,11 +142,11 @@
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8mZxZW/6B9Bm1dfSCNt6/Kez/VU=
+		TC2LvCZYSYoM6oeLKToELA10/Zw=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cjNNmeXeEkmtiLpztS7hWMrvcn4=
+		Hq3IItDVgiwWOhAwsCIKgccvwxU=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -154,11 +154,11 @@
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cjNNmeXeEkmtiLpztS7hWMrvcn4=
+		Hq3IItDVgiwWOhAwsCIKgccvwxU=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vMA5FyxgA2Dfx4ikM8e7LExC+uc=
+		HdHqIFgoDB1sXyaM4mKUgbk/3wQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -738,14 +738,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			58uTDLepl1oZ1dtuhSK+SS+/8gocExiEXLDYK7AuPnI=
+			EialwNjTBMrxbU3yhB7zzCXaWAPC2Zpy1ywRQibvf04=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXoD01X5qdIVAH67VzJCoE0hf2gj56JDDrTKIHze3qM=
+			R3RtKooDn9wdeVo3ukEhE0jXmVuvWEP66TuEciBy8zM=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -759,14 +759,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXoD01X5qdIVAH67VzJCoE0hf2gj56JDDrTKIHze3qM=
+			R3RtKooDn9wdeVo3ukEhE0jXmVuvWEP66TuEciBy8zM=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			57DeXRgcoTrp3p3O5boWaIk5Z9zAAuCKXV95fjmWw3Q=
+			wkQcwXPC1ezNrNUiKqxXsPGr+858gcj8vfRihjSUyzw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

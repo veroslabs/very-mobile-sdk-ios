@@ -5422,7 +5422,10 @@
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
-        "moduleName": "VeryMobileSDK"
+        "moduleName": "VeryMobileSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5450,7 +5453,10 @@
         "name": "Lottie",
         "printedName": "Lottie",
         "declKind": "Import",
-        "moduleName": "VeryMobileSDK"
+        "moduleName": "VeryMobileSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6684,21 +6690,21 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/ProcessingView.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 624,
       "length": 6,
       "value": "\"dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/ProcessingView.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 778,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/ProcessingView.swift",
       "kind": "StringLiteral",
-      "offset": 804,
+      "offset": 825,
       "length": 16,
       "value": "\"loading-finish\""
     },
@@ -6866,7 +6872,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/SwitchPalmView.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 472,
       "length": 6,
       "value": "\"dark\""
     },
