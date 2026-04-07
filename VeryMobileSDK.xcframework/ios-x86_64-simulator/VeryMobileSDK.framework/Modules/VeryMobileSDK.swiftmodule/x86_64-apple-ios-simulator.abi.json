@@ -6011,217 +6011,217 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5770,
+      "offset": 5816,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5799,
+      "offset": 5845,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5836,
+      "offset": 5882,
       "length": 6,
       "value": "0x8002"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5877,
+      "offset": 5923,
       "length": 6,
       "value": "0x8009"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5919,
+      "offset": 5965,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5969,
+      "offset": 6015,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6002,
+      "offset": 6048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6038,
+      "offset": 6084,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6072,
+      "offset": 6118,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6114,
+      "offset": 6160,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6148,
+      "offset": 6194,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6179,
+      "offset": 6225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6210,
+      "offset": 6256,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6247,
+      "offset": 6293,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6284,
+      "offset": 6330,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6322,
+      "offset": 6368,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6358,
+      "offset": 6404,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6396,
+      "offset": 6442,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6434,
+      "offset": 6480,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6474,
+      "offset": 6520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6515,
+      "offset": 6561,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6557,
+      "offset": 6603,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6607,
+      "offset": 6653,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6648,
+      "offset": 6694,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6686,
+      "offset": 6732,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6729,
+      "offset": 6775,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6764,
+      "offset": 6810,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6799,
+      "offset": 6845,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6880,
+      "offset": 6926,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6910,
+      "offset": 6956,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6938,
+      "offset": 6984,
       "length": 1,
       "value": "1"
     },
@@ -7110,14 +7110,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24784,
+      "offset": 24908,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29287,
+      "offset": 29411,
       "length": 2,
       "value": "56"
     },
