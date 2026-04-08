@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Olyan tevékenységet észleltünk, amely megsértheti szolgáltatási feltételeinket. Fiókja korlátozva lett, amíg felülvizsgáljuk.\n\nHa úgy gondolja, hogy ez tévedés, lépjen kapcsolatba ügyfélszolgálatunkkal.";
 "accountRestricted.getInTouch" = "Kapcsolatfelvétel";
 "accountRestricted.cancel" = "Mégse";
+"consent.tip1" = "Hozzon létre fiókot mindkét tenyér beolvasásával. Újra ellenőrzés egyetlen szkenneléssel";

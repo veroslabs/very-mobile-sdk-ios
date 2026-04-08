@@ -111,3 +111,4 @@
 "accountRestricted.message" = "We hebben activiteit gedetecteerd die mogelijk in strijd is met onze servicevoorwaarden. Uw account is beperkt terwijl we het onderzoeken.\n\nAls u denkt dat dit een fout is, neem dan contact op met ons ondersteuningsteam.";
 "accountRestricted.getInTouch" = "Neem contact op";
 "accountRestricted.cancel" = "Annuleren";
+"consent.tip1" = "Maak een account aan door beide handpalmen te scannen. Herverifieer met slechts één scan";

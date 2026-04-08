@@ -111,3 +111,4 @@
 "accountRestricted.message" = "서비스 약관을 위반할 수 있는 활동이 감지되었습니다. 검토하는 동안 계정이 제한되었습니다.\n\n오류라고 생각되시면 지원팀에 문의해 주세요.";
 "accountRestricted.getInTouch" = "문의하기";
 "accountRestricted.cancel" = "취소";
+"consent.tip1" = "양쪽 손바닥을 스캔하여 계정을 만드세요. 재인증은 한 번의 스캔으로 가능합니다";

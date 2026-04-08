@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Am detectat activitate care ar putea încălca termenii noștri de utilizare. Contul dvs. a fost restricționat în timp ce îl analizăm.\n\nDacă credeți că aceasta este o eroare, contactați echipa noastră de asistență.";
 "accountRestricted.getInTouch" = "Contactați-ne";
 "accountRestricted.cancel" = "Anulează";
+"consent.tip1" = "Creați un cont scanând ambele palme. Reverificați cu o singură scanare";

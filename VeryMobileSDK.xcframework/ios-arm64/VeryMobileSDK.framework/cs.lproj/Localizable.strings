@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Zjistili jsme aktivitu, která může porušovat naše podmínky služby. Váš účet byl omezen, zatímco jej prověřujeme.\n\nPokud se domníváte, že jde o chybu, kontaktujte náš tým podpory.";
 "accountRestricted.getInTouch" = "Kontaktujte nás";
 "accountRestricted.cancel" = "Zrušit";
+"consent.tip1" = "Vytvořte účet naskenováním obou dlaní. Opětovné ověření jedním skenem";

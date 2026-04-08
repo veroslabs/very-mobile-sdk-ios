@@ -111,3 +111,4 @@
 "accountRestricted.message" = "Kami mendeteksi aktivitas yang mungkin melanggar ketentuan layanan kami. Akun Anda telah dibatasi sementara kami meninjaunya.\n\nJika Anda yakin ini adalah kesalahan, hubungi tim dukungan kami.";
 "accountRestricted.getInTouch" = "Hubungi kami";
 "accountRestricted.cancel" = "Batal";
+"consent.tip1" = "Buat akun dengan memindai kedua telapak tangan. Verifikasi ulang cukup dengan satu pemindaian";

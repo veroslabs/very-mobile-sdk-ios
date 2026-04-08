@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Nakakita kami ng aktibidad na maaaring lumabag sa aming mga tuntunin ng serbisyo. Ang iyong account ay pinaghihigpitan habang sinusuri namin ito.\n\nKung sa tingin mo ito ay isang pagkakamali, makipag-ugnayan sa aming support team.";
 "accountRestricted.getInTouch" = "Makipag-ugnayan";
 "accountRestricted.cancel" = "Kanselahin";
+"consent.tip1" = "Gumawa ng account sa pamamagitan ng pag-scan ng dalawang palad. Muling i-verify sa isang scan lang";

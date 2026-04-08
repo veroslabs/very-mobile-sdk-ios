@@ -111,3 +111,4 @@
 "accountRestricted.message" = "Nous avons détecté une activité susceptible de violer nos conditions d'utilisation. Votre compte a été restreint pendant que nous l'examinons.\n\nSi vous pensez qu'il s'agit d'une erreur, contactez notre équipe d'assistance.";
 "accountRestricted.getInTouch" = "Nous contacter";
 "accountRestricted.cancel" = "Annuler";
+"consent.tip1" = "Créez un compte en scannant vos deux paumes. Revérifiez avec un seul scan";

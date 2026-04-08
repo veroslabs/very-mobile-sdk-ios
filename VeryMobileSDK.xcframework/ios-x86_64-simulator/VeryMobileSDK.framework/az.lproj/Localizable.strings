@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Xidmət şərtlərimizi poza biləcək fəaliyyət aşkar etdik. Hesabınız araşdırılarkən məhdudlaşdırılıb.\n\nBunun səhv olduğunu düşünürsünüzsə, dəstək komandamızla əlaqə saxlayın.";
 "accountRestricted.getInTouch" = "Əlaqə saxlayın";
 "accountRestricted.cancel" = "Ləğv et";
+"consent.tip1" = "Hər iki ovucunuzu skan edərək hesab yaradın. Yalnız bir skan ilə yenidən doğrulayın";

@@ -111,3 +111,4 @@
 "accountRestricted.message" = "Vi har upptäckt aktivitet som kan bryta mot våra användarvillkor. Ditt konto har begränsats medan vi granskar det.\n\nOm du tror att detta är ett fel, kontakta vårt supportteam.";
 "accountRestricted.getInTouch" = "Kontakta oss";
 "accountRestricted.cancel" = "Avbryt";
+"consent.tip1" = "Skapa konto genom att skanna båda handflatorna. Verifiera igen med bara en skanning";

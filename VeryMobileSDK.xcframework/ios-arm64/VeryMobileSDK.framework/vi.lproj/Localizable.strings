@@ -111,3 +111,4 @@
 "accountRestricted.message" = "Chúng tôi đã phát hiện hoạt động có thể vi phạm điều khoản dịch vụ của chúng tôi. Tài khoản của bạn đã bị hạn chế trong khi chúng tôi xem xét.\n\nNếu bạn cho rằng đây là lỗi, vui lòng liên hệ đội ngũ hỗ trợ của chúng tôi.";
 "accountRestricted.getInTouch" = "Liên hệ với chúng tôi";
 "accountRestricted.cancel" = "Hủy";
+"consent.tip1" = "Tạo tài khoản bằng cách quét cả hai lòng bàn tay. Xác minh lại chỉ với một lần quét";

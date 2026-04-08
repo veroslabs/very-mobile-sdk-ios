@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Vi har registreret aktivitet, der kan overtræde vores servicevilkår. Din konto er blevet begrænset, mens vi gennemgår den.\n\nHvis du mener, dette er en fejl, kontakt venligst vores supportteam.";
 "accountRestricted.getInTouch" = "Kontakt os";
 "accountRestricted.cancel" = "Annuller";
+"consent.tip1" = "Opret konto ved at scanne begge håndflader. Genbekræft med kun én scanning";

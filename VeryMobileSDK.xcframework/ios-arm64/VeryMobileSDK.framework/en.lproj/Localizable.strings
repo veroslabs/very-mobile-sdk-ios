@@ -39,7 +39,7 @@
 /* Consent UI */
 "consent.verifyIdentityTitle" = "%@ uses VeryAI for palm verification";
 "consent.verifyIdentitySubtitle" = "%@ uses VeryAI to confirm you're human.";
-"consent.tip1" = "Create account by scanning both palms";
+"consent.tip1" = "Create account by scanning both palms. Re-verify with just one scan";
 "consent.tip2" = "%@ will have access to limited [verification data]";
 "consent.tip3" = "Your palm scan is only used to verify your identity—delete your data at any time";
 "consent.startVerification" = "Start verification";

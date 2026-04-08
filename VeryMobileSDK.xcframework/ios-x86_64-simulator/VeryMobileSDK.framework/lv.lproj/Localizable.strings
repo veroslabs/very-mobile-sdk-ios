@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Mēs esam konstatējuši darbību, kas var pārkāpt mūsu pakalpojumu noteikumus. Jūsu konts ir ierobežots, kamēr mēs to pārskatām.\n\nJa uzskatāt, ka tā ir kļūda, sazinieties ar mūsu atbalsta komandu.";
 "accountRestricted.getInTouch" = "Sazināties ar mums";
 "accountRestricted.cancel" = "Atcelt";
+"consent.tip1" = "Izveidojiet kontu, skenējot abas plaukstas. Atkārtota verifikācija tikai ar vienu skenēšanu";

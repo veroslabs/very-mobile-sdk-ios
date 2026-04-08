@@ -113,3 +113,4 @@
 "accountRestricted.message" = "We've detected activity that may violate our terms of service. Your account has been restricted while we review it.\n\nIf you believe this is an error, contact our support team.";
 "accountRestricted.getInTouch" = "Get in touch";
 "accountRestricted.cancel" = "Cancel";
+"consent.tip1" = "Create account by scanning both palms. Re-verify with just one scan";

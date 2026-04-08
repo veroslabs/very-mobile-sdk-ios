@@ -111,3 +111,4 @@
 "accountRestricted.message" = "Abbiamo rilevato attività che potrebbero violare i nostri termini di servizio. Il tuo account è stato limitato mentre lo esaminiamo.\n\nSe ritieni che si tratti di un errore, contatta il nostro team di supporto.";
 "accountRestricted.getInTouch" = "Contattaci";
 "accountRestricted.cancel" = "Annulla";
+"consent.tip1" = "Crea un account scansionando entrambi i palmi. Riverifica con una sola scansione";

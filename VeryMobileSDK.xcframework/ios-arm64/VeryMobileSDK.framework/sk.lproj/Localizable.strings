@@ -113,3 +113,4 @@
 "accountRestricted.message" = "Zistili sme aktivitu, ktorá môže porušovať naše podmienky služby. Váš účet bol obmedzený, kým ho preveríme.\n\nAk si myslíte, že ide o chybu, kontaktujte náš tím podpory.";
 "accountRestricted.getInTouch" = "Kontaktujte nás";
 "accountRestricted.cancel" = "Zrušiť";
+"consent.tip1" = "Vytvorte účet naskenovaním oboch dlaní. Opätovné overenie jedným skenovaním";

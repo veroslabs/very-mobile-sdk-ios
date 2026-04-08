@@ -111,3 +111,4 @@
 "accountRestricted.message" = "利用規約に違反する可能性のあるアクティビティが検出されました。確認中のため、アカウントが制限されています。\n\nこれが誤りだと思われる場合は、サポートチームにお問い合わせください。";
 "accountRestricted.getInTouch" = "お問い合わせ";
 "accountRestricted.cancel" = "キャンセル";
+"consent.tip1" = "両方の手のひらをスキャンしてアカウントを作成。再認証は片方のスキャンだけでOK";

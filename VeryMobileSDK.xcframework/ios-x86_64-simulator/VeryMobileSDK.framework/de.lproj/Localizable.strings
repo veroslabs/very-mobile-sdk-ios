@@ -111,3 +111,4 @@
 "accountRestricted.message" = "Wir haben Aktivitäten festgestellt, die möglicherweise gegen unsere Nutzungsbedingungen verstoßen. Ihr Konto wurde eingeschränkt, während wir es überprüfen.\n\nWenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie unser Support-Team.";
 "accountRestricted.getInTouch" = "Kontakt aufnehmen";
 "accountRestricted.cancel" = "Abbrechen";
+"consent.tip1" = "Erstellen Sie ein Konto durch Scannen beider Handflächen. Erneute Verifizierung mit nur einem Scan";

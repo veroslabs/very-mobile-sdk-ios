@@ -111,3 +111,4 @@
 "accountRestricted.message" = "我們偵測到可能違反服務條款的活動。在審核期間，您的帳戶已被限制。\n\n如果您認為這是一個錯誤，請聯繫我們的支援團隊。";
 "accountRestricted.getInTouch" = "聯繫我們";
 "accountRestricted.cancel" = "取消";
+"consent.tip1" = "掃描雙掌建立帳戶。只需掃描一次即可重新驗證";
