@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Chúng tôi không thể xác minh lòng bàn tay của bạn";
 "common.tryAgainMessage" = "Vui lòng thử lại.";
 "auth.errorTitle" = "Chúng tôi không thể tiếp tục bước tiếp theo.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Tài khoản bị hạn chế";
+"accountRestricted.message" = "Chúng tôi đã phát hiện hoạt động có thể vi phạm điều khoản dịch vụ của chúng tôi. Tài khoản của bạn đã bị hạn chế trong khi chúng tôi xem xét.\n\nNếu bạn cho rằng đây là lỗi, vui lòng liên hệ đội ngũ hỗ trợ của chúng tôi.";
+"accountRestricted.getInTouch" = "Liên hệ với chúng tôi";
+"accountRestricted.cancel" = "Hủy";

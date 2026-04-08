@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Не вдалося підтвердити вашу долоню";
 "common.tryAgainMessage" = "Будь ласка, спробуйте ще раз.";
 "auth.errorTitle" = "Не вдалося перейти до наступного кроку.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Обліковий запис обмежено";
+"accountRestricted.message" = "Ми виявили активність, яка може порушувати наші умови використання. Ваш обліковий запис обмежено на час перевірки.\n\nЯкщо ви вважаєте, що це помилка, зверніться до нашої служби підтримки.";
+"accountRestricted.getInTouch" = "Зв'язатися з нами";
+"accountRestricted.cancel" = "Скасувати";

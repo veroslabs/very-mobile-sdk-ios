@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Nismo mogli preveriti vaše dlani";
 "common.tryAgainMessage" = "Poskusite ponovno.";
 "auth.errorTitle" = "Nismo mogli nadaljevati na naslednji korak.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Račun je omejen";
+"accountRestricted.message" = "Zaznali smo dejavnost, ki bi lahko kršila naše pogoje uporabe. Vaš račun je omejen, medtem ko ga pregledujemo.\n\nČe menite, da gre za napako, se obrnite na našo ekipo za podporo.";
+"accountRestricted.getInTouch" = "Stopite v stik";
+"accountRestricted.cancel" = "Prekliči";

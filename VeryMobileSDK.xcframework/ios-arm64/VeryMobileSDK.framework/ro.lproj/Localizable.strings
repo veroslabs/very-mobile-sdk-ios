@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Nu am putut verifica palma dvs.";
 "common.tryAgainMessage" = "Vă rugăm să încercați din nou.";
 "auth.errorTitle" = "Nu am putut trece la pasul următor.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Cont restricționat";
+"accountRestricted.message" = "Am detectat activitate care ar putea încălca termenii noștri de utilizare. Contul dvs. a fost restricționat în timp ce îl analizăm.\n\nDacă credeți că aceasta este o eroare, contactați echipa noastră de asistență.";
+"accountRestricted.getInTouch" = "Contactați-ne";
+"accountRestricted.cancel" = "Anulează";

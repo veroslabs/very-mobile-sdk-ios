@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Nous n'avons pas pu vérifier votre paume";
 "common.tryAgainMessage" = "Veuillez réessayer.";
 "auth.errorTitle" = "Nous n'avons pas pu passer à l'étape suivante.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Compte restreint";
+"accountRestricted.message" = "Nous avons détecté une activité susceptible de violer nos conditions d'utilisation. Votre compte a été restreint pendant que nous l'examinons.\n\nSi vous pensez qu'il s'agit d'une erreur, contactez notre équipe d'assistance.";
+"accountRestricted.getInTouch" = "Nous contacter";
+"accountRestricted.cancel" = "Annuler";

@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Nem tudtuk ellenőrizni a tenyerét";
 "common.tryAgainMessage" = "Kérjük, próbálja újra.";
 "auth.errorTitle" = "Nem tudtunk továbblépni a következő lépésre.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Fiók korlátozva";
+"accountRestricted.message" = "Olyan tevékenységet észleltünk, amely megsértheti szolgáltatási feltételeinket. Fiókja korlátozva lett, amíg felülvizsgáljuk.\n\nHa úgy gondolja, hogy ez tévedés, lépjen kapcsolatba ügyfélszolgálatunkkal.";
+"accountRestricted.getInTouch" = "Kapcsolatfelvétel";
+"accountRestricted.cancel" = "Mégse";

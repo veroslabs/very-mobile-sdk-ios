@@ -184,3 +184,9 @@
 "scan.errorTitle" = "我们无法验证您的手掌";
 "common.tryAgainMessage" = "请重试。";
 "auth.errorTitle" = "我们无法继续下一步。";
+
+/* Account Restricted */
+"accountRestricted.title" = "账户受限";
+"accountRestricted.message" = "我们检测到可能违反服务条款的活动。在审核期间，您的账户已被限制。\n\n如果您认为这是一个错误，请联系我们的支持团队。";
+"accountRestricted.getInTouch" = "联系我们";
+"accountRestricted.cancel" = "取消";

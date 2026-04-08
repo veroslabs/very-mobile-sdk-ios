@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Не можахме да проверим вашата длан";
 "common.tryAgainMessage" = "Моля, опитайте отново.";
 "auth.errorTitle" = "Не можахме да продължим към следващата стъпка.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Акаунтът е ограничен";
+"accountRestricted.message" = "Открихме активност, която може да нарушава нашите условия за ползване. Акаунтът ви е ограничен, докато го преглеждаме.\n\nАко смятате, че това е грешка, свържете се с нашия екип за поддръжка.";
+"accountRestricted.getInTouch" = "Свържете се с нас";
+"accountRestricted.cancel" = "Отказ";

@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Nepodařilo se ověřit vaši dlaň";
 "common.tryAgainMessage" = "Zkuste to prosím znovu.";
 "auth.errorTitle" = "Nepodařilo se pokračovat na další krok.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Účet omezen";
+"accountRestricted.message" = "Zjistili jsme aktivitu, která může porušovat naše podmínky služby. Váš účet byl omezen, zatímco jej prověřujeme.\n\nPokud se domníváte, že jde o chybu, kontaktujte náš tým podpory.";
+"accountRestricted.getInTouch" = "Kontaktujte nás";
+"accountRestricted.cancel" = "Zrušit";

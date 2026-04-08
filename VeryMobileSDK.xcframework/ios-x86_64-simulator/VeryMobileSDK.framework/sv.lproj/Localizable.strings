@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Vi kunde inte verifiera din handflata";
 "common.tryAgainMessage" = "Försök igen.";
 "auth.errorTitle" = "Vi kunde inte gå vidare till nästa steg.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Kontot är begränsat";
+"accountRestricted.message" = "Vi har upptäckt aktivitet som kan bryta mot våra användarvillkor. Ditt konto har begränsats medan vi granskar det.\n\nOm du tror att detta är ett fel, kontakta vårt supportteam.";
+"accountRestricted.getInTouch" = "Kontakta oss";
+"accountRestricted.cancel" = "Avbryt";

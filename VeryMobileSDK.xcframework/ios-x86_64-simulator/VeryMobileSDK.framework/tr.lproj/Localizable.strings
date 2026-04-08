@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Avuç içinizi doğrulayamadık";
 "common.tryAgainMessage" = "Lütfen tekrar deneyin.";
 "auth.errorTitle" = "Bir sonraki adıma geçemedik.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Hesap kısıtlandı";
+"accountRestricted.message" = "Hizmet koşullarımızı ihlal edebilecek bir etkinlik tespit ettik. Hesabınız inceleme sürecinde kısıtlanmıştır.\n\nBunun bir hata olduğunu düşünüyorsanız, destek ekibimizle iletişime geçin.";
+"accountRestricted.getInTouch" = "Bize ulaşın";
+"accountRestricted.cancel" = "İptal";

@@ -105,3 +105,9 @@
 "scan.errorTitle" = "لم تتمكن من التحقق من راحة يدك";
 "common.tryAgainMessage" = "يرجى المحاولة مرة أخرى.";
 "auth.errorTitle" = "لم نتمكن من المتابعة إلى الخطوة التالية.";
+
+/* Account Restricted */
+"accountRestricted.title" = "الحساب مقيّد";
+"accountRestricted.message" = "اكتشفنا نشاطًا قد ينتهك شروط الخدمة الخاصة بنا. تم تقييد حسابك أثناء مراجعتنا له.\n\nإذا كنت تعتقد أن هذا خطأ، تواصل مع فريق الدعم لدينا.";
+"accountRestricted.getInTouch" = "تواصل معنا";
+"accountRestricted.cancel" = "إلغاء";

@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Нам не удалось подтвердить вашу ладонь";
 "common.tryAgainMessage" = "Пожалуйста, попробуйте ещё раз.";
 "auth.errorTitle" = "Не удалось перейти к следующему шагу.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Аккаунт ограничен";
+"accountRestricted.message" = "Мы обнаружили активность, которая может нарушать наши условия использования. Ваш аккаунт ограничен на время проверки.\n\nЕсли вы считаете, что это ошибка, свяжитесь с нашей службой поддержки.";
+"accountRestricted.getInTouch" = "Связаться с нами";
+"accountRestricted.cancel" = "Отмена";

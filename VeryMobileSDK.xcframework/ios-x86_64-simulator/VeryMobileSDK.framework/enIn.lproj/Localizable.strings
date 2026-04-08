@@ -107,3 +107,9 @@
 "scan.errorTitle" = "We couldn't verify your palm";
 "common.tryAgainMessage" = "Please try again.";
 "auth.errorTitle" = "We couldn't proceed to the next step.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Account restricted";
+"accountRestricted.message" = "We've detected activity that may violate our terms of service. Your account has been restricted while we review it.\n\nIf you believe this is an error, contact our support team.";
+"accountRestricted.getInTouch" = "Get in touch";
+"accountRestricted.cancel" = "Cancel";

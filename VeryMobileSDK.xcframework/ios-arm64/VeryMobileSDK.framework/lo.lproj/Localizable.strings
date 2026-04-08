@@ -107,3 +107,9 @@
 "scan.errorTitle" = "ພວກເຮົາບໍ່ສາມາດກວດສອບຝ່າມືຂອງທ່ານໄດ້";
 "common.tryAgainMessage" = "ກະລຸນາລອງໃໝ່.";
 "auth.errorTitle" = "ພວກເຮົາບໍ່ສາມາດດຳເນີນໄປຂັ້ນຕອນຕໍ່ໄປໄດ້.";
+
+/* Account Restricted */
+"accountRestricted.title" = "ບັນຊີຖືກຈຳກັດ";
+"accountRestricted.message" = "ພວກເຮົາກວດພົບກິດຈະກຳທີ່ອາດລະເມີດເງື່ອນໄຂການບໍລິການຂອງພວກເຮົາ. ບັນຊີຂອງທ່ານຖືກຈຳກັດໃນຂະນະທີ່ພວກເຮົາກຳລັງກວດສອບ.\n\nຫາກທ່ານເຊື່ອວ່ານີ້ແມ່ນຂໍ້ຜິດພາດ, ກະລຸນາຕິດຕໍ່ທີມງານຊ່ວຍເຫຼືອຂອງພວກເຮົາ.";
+"accountRestricted.getInTouch" = "ຕິດຕໍ່ພວກເຮົາ";
+"accountRestricted.cancel" = "ຍົກເລີກ";

@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Non siamo riusciti a verificare il tuo palmo";
 "common.tryAgainMessage" = "Per favore riprova.";
 "auth.errorTitle" = "Non siamo riusciti a procedere al passaggio successivo.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Account limitato";
+"accountRestricted.message" = "Abbiamo rilevato attività che potrebbero violare i nostri termini di servizio. Il tuo account è stato limitato mentre lo esaminiamo.\n\nSe ritieni che si tratti di un errore, contatta il nostro team di supporto.";
+"accountRestricted.getInTouch" = "Contattaci";
+"accountRestricted.cancel" = "Annulla";

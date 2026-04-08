@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Hindi namin ma-verify ang iyong palad";
 "common.tryAgainMessage" = "Mangyaring subukan ulit.";
 "auth.errorTitle" = "Hindi kami makapagpatuloy sa susunod na hakbang.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Pinaghihigpitan ang account";
+"accountRestricted.message" = "Nakakita kami ng aktibidad na maaaring lumabag sa aming mga tuntunin ng serbisyo. Ang iyong account ay pinaghihigpitan habang sinusuri namin ito.\n\nKung sa tingin mo ito ay isang pagkakamali, makipag-ugnayan sa aming support team.";
+"accountRestricted.getInTouch" = "Makipag-ugnayan";
+"accountRestricted.cancel" = "Kanselahin";

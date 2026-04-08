@@ -105,3 +105,9 @@
 "scan.errorTitle" = "手のひらを確認できませんでした";
 "common.tryAgainMessage" = "もう一度お試しください。";
 "auth.errorTitle" = "次のステップに進めませんでした。";
+
+/* Account Restricted */
+"accountRestricted.title" = "アカウントが制限されています";
+"accountRestricted.message" = "利用規約に違反する可能性のあるアクティビティが検出されました。確認中のため、アカウントが制限されています。\n\nこれが誤りだと思われる場合は、サポートチームにお問い合わせください。";
+"accountRestricted.getInTouch" = "お問い合わせ";
+"accountRestricted.cancel" = "キャンセル";

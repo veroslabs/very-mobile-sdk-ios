@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Nie mogliśmy zweryfikować Twojej dłoni";
 "common.tryAgainMessage" = "Spróbuj ponownie.";
 "auth.errorTitle" = "Nie udało się przejść do następnego kroku.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Konto ograniczone";
+"accountRestricted.message" = "Wykryliśmy aktywność, która może naruszać nasze warunki korzystania z usługi. Twoje konto zostało ograniczone na czas weryfikacji.\n\nJeśli uważasz, że to błąd, skontaktuj się z naszym zespołem wsparcia.";
+"accountRestricted.getInTouch" = "Skontaktuj się z nami";
+"accountRestricted.cancel" = "Anuluj";

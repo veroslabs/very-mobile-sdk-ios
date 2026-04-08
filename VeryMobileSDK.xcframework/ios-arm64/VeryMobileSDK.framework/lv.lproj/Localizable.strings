@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Mēs nevarējām pārbaudīt jūsu plaukstu";
 "common.tryAgainMessage" = "Lūdzu, mēģiniet vēlreiz.";
 "auth.errorTitle" = "Nevarējām pāriet uz nākamo soli.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Konts ierobežots";
+"accountRestricted.message" = "Mēs esam konstatējuši darbību, kas var pārkāpt mūsu pakalpojumu noteikumus. Jūsu konts ir ierobežots, kamēr mēs to pārskatām.\n\nJa uzskatāt, ka tā ir kļūda, sazinieties ar mūsu atbalsta komandu.";
+"accountRestricted.getInTouch" = "Sazināties ar mums";
+"accountRestricted.cancel" = "Atcelt";

@@ -86,6 +86,12 @@
 "email.invalidCode" = "Invalid verification code. Please try again.";
 "email.placeholder" = "Email address";
 
+/* Account Restricted */
+"accountRestricted.title" = "Account restricted";
+"accountRestricted.message" = "We've detected activity that may violate our terms of service. Your account has been restricted while we review it.\n\nIf you believe this is an error, contact our support team.";
+"accountRestricted.getInTouch" = "Get in touch";
+"accountRestricted.cancel" = "Cancel";
+
 /* API Error Codes (message for each code) */
 "error.1001" = "Something went wrong. Please try again.";
 "error.1002" = "We couldn't verify your palm. Please try again.";

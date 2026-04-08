@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Kami tidak dapat memverifikasi telapak tangan Anda";
 "common.tryAgainMessage" = "Silakan coba lagi.";
 "auth.errorTitle" = "Kami tidak dapat melanjutkan ke langkah berikutnya.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Akun dibatasi";
+"accountRestricted.message" = "Kami mendeteksi aktivitas yang mungkin melanggar ketentuan layanan kami. Akun Anda telah dibatasi sementara kami meninjaunya.\n\nJika Anda yakin ini adalah kesalahan, hubungi tim dukungan kami.";
+"accountRestricted.getInTouch" = "Hubungi kami";
+"accountRestricted.cancel" = "Batal";

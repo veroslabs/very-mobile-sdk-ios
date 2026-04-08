@@ -105,3 +105,9 @@
 "scan.errorTitle" = "손바닥을 확인할 수 없습니다";
 "common.tryAgainMessage" = "다시 시도해주세요.";
 "auth.errorTitle" = "다음 단계로 진행할 수 없습니다.";
+
+/* Account Restricted */
+"accountRestricted.title" = "계정이 제한되었습니다";
+"accountRestricted.message" = "서비스 약관을 위반할 수 있는 활동이 감지되었습니다. 검토하는 동안 계정이 제한되었습니다.\n\n오류라고 생각되시면 지원팀에 문의해 주세요.";
+"accountRestricted.getInTouch" = "문의하기";
+"accountRestricted.cancel" = "취소";

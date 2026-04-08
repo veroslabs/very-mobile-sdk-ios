@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Алақаныңызды растай алмадық";
 "common.tryAgainMessage" = "Қайта көріңіз.";
 "auth.errorTitle" = "Келесі қадамға өту мүмкін болмады.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Аккаунт шектелген";
+"accountRestricted.message" = "Біз қызмет көрсету шарттарын бұзуы мүмкін әрекетті анықтадық. Тексеру кезінде аккаунтыңыз шектелді.\n\nЕгер бұл қате деп ойласаңыз, қолдау тобымызбен хабарласыңыз.";
+"accountRestricted.getInTouch" = "Бізбен байланысу";
+"accountRestricted.cancel" = "Бас тарту";

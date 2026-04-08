@@ -107,3 +107,9 @@
 "scan.errorTitle" = "Vi kunne ikke bekræfte din hånd";
 "common.tryAgainMessage" = "Prøv igen.";
 "auth.errorTitle" = "Vi kunne ikke gå videre til næste trin.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Konto begrænset";
+"accountRestricted.message" = "Vi har registreret aktivitet, der kan overtræde vores servicevilkår. Din konto er blevet begrænset, mens vi gennemgår den.\n\nHvis du mener, dette er en fejl, kontakt venligst vores supportteam.";
+"accountRestricted.getInTouch" = "Kontakt os";
+"accountRestricted.cancel" = "Annuller";

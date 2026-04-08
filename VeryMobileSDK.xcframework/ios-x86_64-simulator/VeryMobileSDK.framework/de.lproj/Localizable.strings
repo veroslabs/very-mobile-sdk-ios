@@ -105,3 +105,9 @@
 "scan.errorTitle" = "Wir konnten deine Handfläche nicht überprüfen";
 "common.tryAgainMessage" = "Bitte versuche es erneut.";
 "auth.errorTitle" = "Wir konnten nicht mit dem nächsten Schritt fortfahren.";
+
+/* Account Restricted */
+"accountRestricted.title" = "Konto eingeschränkt";
+"accountRestricted.message" = "Wir haben Aktivitäten festgestellt, die möglicherweise gegen unsere Nutzungsbedingungen verstoßen. Ihr Konto wurde eingeschränkt, während wir es überprüfen.\n\nWenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie unser Support-Team.";
+"accountRestricted.getInTouch" = "Kontakt aufnehmen";
+"accountRestricted.cancel" = "Abbrechen";

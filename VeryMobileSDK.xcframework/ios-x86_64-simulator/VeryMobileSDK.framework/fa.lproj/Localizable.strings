@@ -107,3 +107,9 @@
 "scan.errorTitle" = "ما نتوانستیم کف دست شما را تایید کنیم";
 "common.tryAgainMessage" = "لطفاً دوباره تلاش کنید.";
 "auth.errorTitle" = "نتوانستیم به مرحله بعدی برویم.";
+
+/* Account Restricted */
+"accountRestricted.title" = "حساب محدود شده";
+"accountRestricted.message" = "ما فعالیتی را شناسایی کرده‌ایم که ممکن است شرایط خدمات ما را نقض کند. حساب شما در حالی که در حال بررسی آن هستیم محدود شده است.\n\nاگر فکر می‌کنید این یک خطا است، با تیم پشتیبانی ما تماس بگیرید.";
+"accountRestricted.getInTouch" = "تماس با ما";
+"accountRestricted.cancel" = "لغو";
