@@ -6822,14 +6822,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24908,
+      "offset": 25071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29411,
+      "offset": 29574,
       "length": 2,
       "value": "56"
     },
