@@ -11,13 +11,13 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "VerySDKWrapper",
-            dependencies: [
-                "VerySDKBinary",
-                "PalmAPISaas",
-                .product(name: "Lottie", package: "lottie-spm"),
-            ],
-            path: "Sources"
+  name: "VerySDKWrapper",
+  dependencies: [
+      "VerySDKBinary",
+      "PalmAPISaas",
+      .product(name: "Lottie", package: "lottie-spm"),
+  ],
+  path: "Sources"
         ),
         .binaryTarget(name: "VerySDKBinary", path: "VerySDK.xcframework"),
         .binaryTarget(name: "PalmAPISaas", path: "PalmAPISaas.xcframework"),

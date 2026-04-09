@@ -1,0 +1,4 @@
+framework module VerySDK {
+  header "VerySDK-Swift.h"
+  requires objc
+}
