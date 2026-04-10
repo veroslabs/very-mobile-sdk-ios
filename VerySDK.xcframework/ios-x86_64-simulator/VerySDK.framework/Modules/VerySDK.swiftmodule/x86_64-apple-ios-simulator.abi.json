@@ -6388,14 +6388,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/ProcessingView.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 803,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/ProcessingView.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 850,
       "length": 16,
       "value": "\"loading-finish\""
     },
@@ -7942,7 +7942,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKExitHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3018,
+      "offset": 3200,
       "length": 5,
       "value": "false"
     },
