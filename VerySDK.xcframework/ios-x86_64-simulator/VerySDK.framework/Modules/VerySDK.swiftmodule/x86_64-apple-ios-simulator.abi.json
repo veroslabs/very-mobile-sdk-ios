@@ -6024,28 +6024,28 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "StringLiteral",
-      "offset": 2023,
+      "offset": 2051,
       "length": 13,
       "value": "\"VerySDK-Api\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3207,
+      "offset": 3235,
       "length": 5,
       "value": "-1001"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3265,
+      "offset": 3293,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3805,
+      "offset": 3833,
       "length": 5,
       "value": "-1009"
     },
@@ -6668,7 +6668,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 50719,
+      "offset": 52765,
       "length": 2,
       "value": "56"
     },
