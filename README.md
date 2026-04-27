@@ -124,7 +124,6 @@ VerySDK.authenticate(this, config, VeryPresentationStyle.FULL_SCREEN, result -> 
 | `userId`    | String? | No       | `nil` / `null` | `nil` → enrollment, existing ID → verification      |
 | `language`  | String? | No       | `"en"`         | UI language code                                     |
 | `themeMode` | String  | No       | `"dark"`       | `"dark"` or `"light"`                                |
-| `baseUrl`   | String? | No       | production     | Override API base URL for staging/testing             |
 
 ### VeryPresentationStyle
 
@@ -188,7 +187,8 @@ On success, the SDK returns a `signedToken` — an Ed25519-signed JWT that crypt
 | 5016        | SDK Email             | Email already verified for this session     |
 | 5017        | SDK Account           | Account restricted — blocked from all operations |
 | 5018        | SDK Email             | Email flow disabled (partner has `skipEmail` enabled) |
-| 9001–9006   | Client-side           | Camera permission denied, capture failed, user cancelled, timeout |
+| 6001–6006, 6999 | Network / client   | No internet, timeout, DNS, TLS, server error, unknown |
+| 9001–9004   | Client-side           | Camera permission denied, capture failed, session, user cancelled |
 
 ## Platform Setup
 

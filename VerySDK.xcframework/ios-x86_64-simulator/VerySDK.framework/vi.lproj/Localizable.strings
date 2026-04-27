@@ -41,7 +41,7 @@
 "workthrough.getStarted" = "Bắt đầu";
 
 /* Error Messages */
-"error.5001" = "Session has expired.";
+"error.5001" = "Session expired. Please start again.";
 "error.5002" = "Session not found or already consumed.";
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
@@ -53,15 +53,16 @@
 "error.5010" = "Account review was permanently rejected.";
 "error.5011" = "Account enrollment is still under review.";
 "error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests, please try again later.";
+"error.5013" = "Too many requests. Please try again later.";
 "error.5014" = "Đã xảy ra lỗi. Vui lòng thử lại.";
-"error.9001" = "Để quét lòng bàn tay, vui lòng cho phép truy cập máy ảnh trong cài đặt điện thoại của bạn.";
-"error.9002" = "Chúng tôi không thể hoàn tất quá trình quét. Vui lòng thử lại.";
-"error.9003" = "Session expired. Please try again.";
-"error.9004" = "User cancelled.";
-"error.9005" = "An unknown error occurred.";
-"error.9006" = "Request timed out.";
-"error.9007" = "Lỗi mạng. Vui lòng kiểm tra kết nối internet của bạn và thử lại.";
+"error.5015" = "Please verify your email first.";
+"error.5016" = "Email has already been verified for this session.";
+"error.5017" = "Your account is restricted and cannot proceed.";
+"error.5018" = "Email verification is not available for this session.";
+"error.6101" = "Để quét lòng bàn tay, vui lòng cho phép truy cập máy ảnh trong cài đặt điện thoại của bạn.";
+"error.6102" = "Chúng tôi không thể hoàn tất quá trình quét. Vui lòng thử lại.";
+"error.6103" = "Session expired. Please try again.";
+"error.6104" = "User cancelled.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Lòng bàn tay của bạn đã được xác minh.";
@@ -70,6 +71,7 @@
 /* Common UI */
 "common.poweredBy" = "Powered by";
 "common.loading" = "đang tải…";
+"common.retrying" = "Đang thử lại…";
 "common.success" = "Thành công";
 "common.error" = "Lỗi";
 "common.done" = "Xong";
@@ -115,3 +117,44 @@
 "accountRestricted.getInTouch" = "Liên hệ với chúng tôi";
 "accountRestricted.cancel" = "Hủy";
 "consent.tip1" = "Tạo tài khoản bằng cách quét cả hai lòng bàn tay. Xác minh lại chỉ với một lần quét";
+"error.6001" = "Không thể kết nối. Hãy kiểm tra kết nối internet và thử lại.";
+"error.6002" = "Mất quá nhiều thời gian để nhận phản hồi. Hãy kiểm tra kết nối và thử lại.";
+"error.6003" = "Không thể tìm thấy máy chủ của chúng tôi. Hãy kiểm tra mạng hoặc thử mạng khác.";
+"error.6004" = "Lỗi mạng. Vui lòng kiểm tra kết nối và thử lại.";
+"error.6005" = "Kết nối bảo mật không thành công. Hãy kiểm tra ngày và giờ trên thiết bị.";
+"error.6006" = "Máy chủ của chúng tôi đang gặp sự cố. Vui lòng thử lại sau ít phút.";
+"error.6999" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+
+/* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
+"error.title.connectionLost" = "Connection lost";
+"error.body.connectionLost" = "You're offline. Check your internet.";
+"error.title.rateLimited" = "Just a moment";
+"error.body.rateLimited" = "Try again in a moment.";
+"error.title.sessionExpired" = "Let's start fresh";
+"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
+"error.title.checkAccount" = "Check your account";
+"error.body.checkAccount" = "Your last attempt may have already gone through.";
+"error.title.cameraPermission" = "We need your camera";
+"error.body.cameraPermission" = "Turn on camera access in settings.";
+"error.title.palmMismatch" = "That didn't match";
+"error.body.palmMismatch" = "We couldn't verify your palm.";
+"error.title.scanFailed" = "Scan didn't work";
+"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
+"error.title.restrictive" = "We can't continue";
+"error.body.restrictive" = "We're unable to complete this right now.";
+"error.title.setupIssue" = "App setup issue";
+"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
+"error.title.serverTransient" = "That didn't work";
+"error.body.serverTransient" = "Something broke on our end.";
+"error.cta.tryAgain" = "Try again";
+"error.cta.startOver" = "Start over";
+"error.cta.checkAccount" = "Check my account";
+"error.cta.openSettings" = "Open settings";
+"error.cta.contactSupport" = "Contact support";
+"error.cta.close" = "Close";
+
+/* VER-491 inline: field-level email verify errors (2006/2007) */
+"email.inlineCodeInvalid" = "Code is incorrect.";
+"email.inlineCodeExpired" = "Code has expired. Request a new code.";
+"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
+"email.inlineCodeGeneric" = "Verification failed.";

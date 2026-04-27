@@ -41,7 +41,7 @@
 "workthrough.getStarted" = "시작하기";
 
 /* Error Messages */
-"error.5001" = "Session has expired.";
+"error.5001" = "Session expired. Please start again.";
 "error.5002" = "Session not found or already consumed.";
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
@@ -53,15 +53,16 @@
 "error.5010" = "Account review was permanently rejected.";
 "error.5011" = "Account enrollment is still under review.";
 "error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests, please try again later.";
+"error.5013" = "Too many requests. Please try again later.";
 "error.5014" = "문제가 발생했습니다. 다시 시도해 주세요.";
-"error.9001" = "손바닥을 스캔하려면 휴대폰 설정에서 카메라 접근을 허용해 주세요.";
-"error.9002" = "스캔을 완료할 수 없습니다. 다시 시도해 주세요.";
-"error.9003" = "Session expired. Please try again.";
-"error.9004" = "User cancelled.";
-"error.9005" = "An unknown error occurred.";
-"error.9006" = "Request timed out.";
-"error.9007" = "네트워크 오류. 인터넷 연결을 확인하고 다시 시도해주세요.";
+"error.5015" = "Please verify your email first.";
+"error.5016" = "Email has already been verified for this session.";
+"error.5017" = "Your account is restricted and cannot proceed.";
+"error.5018" = "Email verification is not available for this session.";
+"error.6101" = "손바닥을 스캔하려면 휴대폰 설정에서 카메라 접근을 허용해 주세요.";
+"error.6102" = "스캔을 완료할 수 없습니다. 다시 시도해 주세요.";
+"error.6103" = "Session expired. Please try again.";
+"error.6104" = "User cancelled.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "손바닥이 인증되었습니다.";
@@ -70,6 +71,7 @@
 /* Common UI */
 "common.poweredBy" = "Powered by";
 "common.loading" = "로딩 중…";
+"common.retrying" = "다시 시도 중…";
 "common.success" = "성공";
 "common.error" = "오류";
 "common.done" = "완료";
@@ -115,3 +117,44 @@
 "accountRestricted.getInTouch" = "문의하기";
 "accountRestricted.cancel" = "취소";
 "consent.tip1" = "양쪽 손바닥을 스캔하여 계정을 만드세요. 재인증은 한 번의 스캔으로 가능합니다";
+"error.6001" = "연결할 수 없습니다. 인터넷 연결을 확인하고 다시 시도해 주세요.";
+"error.6002" = "응답 시간이 초과되었습니다. 연결을 확인하고 다시 시도해 주세요.";
+"error.6003" = "서버를 찾을 수 없습니다. 네트워크를 확인하거나 다른 네트워크로 전환해 주세요.";
+"error.6004" = "네트워크 오류입니다. 연결을 확인하고 다시 시도해 주세요.";
+"error.6005" = "보안 연결에 실패했습니다. 기기의 날짜 및 시간을 확인해 주세요.";
+"error.6006" = "서버에 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.";
+"error.6999" = "문제가 발생했습니다. 다시 시도해 주세요.";
+
+/* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
+"error.title.connectionLost" = "Connection lost";
+"error.body.connectionLost" = "You're offline. Check your internet.";
+"error.title.rateLimited" = "Just a moment";
+"error.body.rateLimited" = "Try again in a moment.";
+"error.title.sessionExpired" = "Let's start fresh";
+"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
+"error.title.checkAccount" = "Check your account";
+"error.body.checkAccount" = "Your last attempt may have already gone through.";
+"error.title.cameraPermission" = "We need your camera";
+"error.body.cameraPermission" = "Turn on camera access in settings.";
+"error.title.palmMismatch" = "That didn't match";
+"error.body.palmMismatch" = "We couldn't verify your palm.";
+"error.title.scanFailed" = "Scan didn't work";
+"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
+"error.title.restrictive" = "We can't continue";
+"error.body.restrictive" = "We're unable to complete this right now.";
+"error.title.setupIssue" = "App setup issue";
+"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
+"error.title.serverTransient" = "That didn't work";
+"error.body.serverTransient" = "Something broke on our end.";
+"error.cta.tryAgain" = "Try again";
+"error.cta.startOver" = "Start over";
+"error.cta.checkAccount" = "Check my account";
+"error.cta.openSettings" = "Open settings";
+"error.cta.contactSupport" = "Contact support";
+"error.cta.close" = "Close";
+
+/* VER-491 inline: field-level email verify errors (2006/2007) */
+"email.inlineCodeInvalid" = "Code is incorrect.";
+"email.inlineCodeExpired" = "Code has expired. Request a new code.";
+"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
+"email.inlineCodeGeneric" = "Verification failed.";

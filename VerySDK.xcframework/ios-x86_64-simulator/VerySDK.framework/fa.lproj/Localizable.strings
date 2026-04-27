@@ -43,7 +43,7 @@
 "workthrough.getStarted" = "شروع";
 
 /* Error Messages */
-"error.5001" = "Session has expired.";
+"error.5001" = "Session expired. Please start again.";
 "error.5002" = "Session not found or already consumed.";
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
@@ -55,15 +55,16 @@
 "error.5010" = "Account review was permanently rejected.";
 "error.5011" = "Account enrollment is still under review.";
 "error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests, please try again later.";
+"error.5013" = "Too many requests. Please try again later.";
 "error.5014" = "مشکلی پیش آمد. لطفاً دوباره تلاش کنید.";
-"error.9001" = "برای اسکن کف دست، لطفاً دسترسی دوربین را در تنظیمات گوشی خود فعال کنید.";
-"error.9002" = "نتوانستیم اسکن را تکمیل کنیم. لطفاً دوباره تلاش کنید.";
-"error.9003" = "Session expired. Please try again.";
-"error.9004" = "User cancelled.";
-"error.9005" = "An unknown error occurred.";
-"error.9006" = "Request timed out.";
-"error.9007" = "خطای شبکه. لطفاً اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید.";
+"error.5015" = "Please verify your email first.";
+"error.5016" = "Email has already been verified for this session.";
+"error.5017" = "Your account is restricted and cannot proceed.";
+"error.5018" = "Email verification is not available for this session.";
+"error.6101" = "برای اسکن کف دست، لطفاً دسترسی دوربین را در تنظیمات گوشی خود فعال کنید.";
+"error.6102" = "نتوانستیم اسکن را تکمیل کنیم. لطفاً دوباره تلاش کنید.";
+"error.6103" = "Session expired. Please try again.";
+"error.6104" = "User cancelled.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "کف دست شما تأیید شد.";
@@ -72,6 +73,7 @@
 /* Common UI */
 "common.poweredBy" = "Powered by";
 "common.loading" = "در حال بارگذاری…";
+"common.retrying" = "در حال تلاش دوباره…";
 "common.success" = "موفقیت";
 "common.error" = "خطا";
 "common.done" = "انجام شد";
@@ -117,3 +119,44 @@
 "accountRestricted.getInTouch" = "تماس با ما";
 "accountRestricted.cancel" = "لغو";
 "consent.tip1" = "با اسکن هر دو کف دست حساب بسازید. با فقط یک اسکن دوباره تأیید کنید";
+"error.6001" = "اتصال برقرار نشد. اتصال اینترنت خود را بررسی کنید و دوباره امتحان کنید.";
+"error.6002" = "دریافت پاسخ بیش از حد طول کشید. اتصال خود را بررسی کنید و دوباره امتحان کنید.";
+"error.6003" = "امکان تشخیص آدرس سرور ما وجود ندارد. شبکه را بررسی کنید یا شبکه دیگری امتحان کنید.";
+"error.6004" = "خطای شبکه. لطفاً اتصال خود را بررسی کنید و دوباره امتحان کنید.";
+"error.6005" = "اتصال امن برقرار نشد. تاریخ و ساعت دستگاه خود را بررسی کنید.";
+"error.6006" = "سرورهای ما با مشکل مواجه هستند. لطفاً کمی بعد دوباره امتحان کنید.";
+"error.6999" = "مشکلی پیش آمد. لطفاً دوباره امتحان کنید.";
+
+/* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
+"error.title.connectionLost" = "Connection lost";
+"error.body.connectionLost" = "You're offline. Check your internet.";
+"error.title.rateLimited" = "Just a moment";
+"error.body.rateLimited" = "Try again in a moment.";
+"error.title.sessionExpired" = "Let's start fresh";
+"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
+"error.title.checkAccount" = "Check your account";
+"error.body.checkAccount" = "Your last attempt may have already gone through.";
+"error.title.cameraPermission" = "We need your camera";
+"error.body.cameraPermission" = "Turn on camera access in settings.";
+"error.title.palmMismatch" = "That didn't match";
+"error.body.palmMismatch" = "We couldn't verify your palm.";
+"error.title.scanFailed" = "Scan didn't work";
+"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
+"error.title.restrictive" = "We can't continue";
+"error.body.restrictive" = "We're unable to complete this right now.";
+"error.title.setupIssue" = "App setup issue";
+"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
+"error.title.serverTransient" = "That didn't work";
+"error.body.serverTransient" = "Something broke on our end.";
+"error.cta.tryAgain" = "Try again";
+"error.cta.startOver" = "Start over";
+"error.cta.checkAccount" = "Check my account";
+"error.cta.openSettings" = "Open settings";
+"error.cta.contactSupport" = "Contact support";
+"error.cta.close" = "Close";
+
+/* VER-491 inline: field-level email verify errors (2006/2007) */
+"email.inlineCodeInvalid" = "Code is incorrect.";
+"email.inlineCodeExpired" = "Code has expired. Request a new code.";
+"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
+"email.inlineCodeGeneric" = "Verification failed.";

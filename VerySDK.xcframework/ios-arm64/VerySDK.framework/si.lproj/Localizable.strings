@@ -43,7 +43,7 @@
 "workthrough.getStarted" = "ආරම්භ කරන්න";
 
 /* Error Messages */
-"error.5001" = "Session has expired.";
+"error.5001" = "Session expired. Please start again.";
 "error.5002" = "Session not found or already consumed.";
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
@@ -55,15 +55,16 @@
 "error.5010" = "Account review was permanently rejected.";
 "error.5011" = "Account enrollment is still under review.";
 "error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests, please try again later.";
+"error.5013" = "Too many requests. Please try again later.";
 "error.5014" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";
-"error.9001" = "ඔබගේ අත්ල ස්කෑන් කිරීමට, ඔබගේ දුරකථන සැකසීම් තුළ කැමරා ප්‍රවේශයට අවසර දෙන්න.";
-"error.9002" = "ස්කෑන් කිරීම සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
-"error.9003" = "Session expired. Please try again.";
-"error.9004" = "User cancelled.";
-"error.9005" = "An unknown error occurred.";
-"error.9006" = "Request timed out.";
-"error.9007" = "ජාල දෝෂයකි. කරුණාකර ඔබේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
+"error.5015" = "Please verify your email first.";
+"error.5016" = "Email has already been verified for this session.";
+"error.5017" = "Your account is restricted and cannot proceed.";
+"error.5018" = "Email verification is not available for this session.";
+"error.6101" = "ඔබගේ අත්ල ස්කෑන් කිරීමට, ඔබගේ දුරකථන සැකසීම් තුළ කැමරා ප්‍රවේශයට අවසර දෙන්න.";
+"error.6102" = "ස්කෑන් කිරීම සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.6103" = "Session expired. Please try again.";
+"error.6104" = "User cancelled.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය කරන ලදී.";
@@ -72,6 +73,7 @@
 /* Common UI */
 "common.poweredBy" = "Powered by";
 "common.loading" = "පූරණය වෙමින්…";
+"common.retrying" = "නැවත උත්සාහ කරමින්…";
 "common.success" = "සාර්ථකයි";
 "common.error" = "දෝෂයක්";
 "common.done" = "හරි";
@@ -117,3 +119,44 @@
 "accountRestricted.getInTouch" = "අප හා සම්බන්ධ වන්න";
 "accountRestricted.cancel" = "අවලංගු කරන්න";
 "consent.tip1" = "අත්ල දෙකම ස්කෑන් කර ගිණුමක් සාදන්න. එක් ස්කෑන් එකකින් නැවත තහවුරු කරන්න";
+"error.6001" = "සම්බන්ධ විය නොහැකි විය. ඔබේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
+"error.6002" = "පිළිතුරක් ලබා ගැනීමට ඕනෑවට වඩා කාලය ගතවිය. ඔබේ සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
+"error.6003" = "අපගේ සේවාදායක හඳුනා ගත නොහැක. ඔබේ ජාලය පරීක්ෂා කරන්න හෝ වෙනත් ජාලයකට මාරු වන්න.";
+"error.6004" = "ජාල දෝෂයකි. කරුණාකර ඔබේ සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
+"error.6005" = "ආරක්ෂිත සම්බන්ධතාවය අසාර්ථක විය. ඔබේ උපාංගයේ දිනය සහ වේලාව පරීක්ෂා කරන්න.";
+"error.6006" = "අපගේ සේවාදායකවල ගැටලු ඇත. කරුණාකර ටික වේලාවකින් නැවත උත්සාහ කරන්න.";
+"error.6999" = "යමක් වැරදී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.";
+
+/* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
+"error.title.connectionLost" = "Connection lost";
+"error.body.connectionLost" = "You're offline. Check your internet.";
+"error.title.rateLimited" = "Just a moment";
+"error.body.rateLimited" = "Try again in a moment.";
+"error.title.sessionExpired" = "Let's start fresh";
+"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
+"error.title.checkAccount" = "Check your account";
+"error.body.checkAccount" = "Your last attempt may have already gone through.";
+"error.title.cameraPermission" = "We need your camera";
+"error.body.cameraPermission" = "Turn on camera access in settings.";
+"error.title.palmMismatch" = "That didn't match";
+"error.body.palmMismatch" = "We couldn't verify your palm.";
+"error.title.scanFailed" = "Scan didn't work";
+"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
+"error.title.restrictive" = "We can't continue";
+"error.body.restrictive" = "We're unable to complete this right now.";
+"error.title.setupIssue" = "App setup issue";
+"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
+"error.title.serverTransient" = "That didn't work";
+"error.body.serverTransient" = "Something broke on our end.";
+"error.cta.tryAgain" = "Try again";
+"error.cta.startOver" = "Start over";
+"error.cta.checkAccount" = "Check my account";
+"error.cta.openSettings" = "Open settings";
+"error.cta.contactSupport" = "Contact support";
+"error.cta.close" = "Close";
+
+/* VER-491 inline: field-level email verify errors (2006/2007) */
+"email.inlineCodeInvalid" = "Code is incorrect.";
+"email.inlineCodeExpired" = "Code has expired. Request a new code.";
+"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
+"email.inlineCodeGeneric" = "Verification failed.";

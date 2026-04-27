@@ -1509,6 +1509,90 @@
           },
           {
             "kind": "Var",
+            "name": "missingCameraUsageDescription",
+            "printedName": "missingCameraUsageDescription",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeMissingCameraUsageDescription",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO29missingCameraUsageDescriptionyA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "noInternet",
+            "printedName": "noInternet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeNoInternet",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO10noInternetyA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
             "name": "timeout",
             "printedName": "timeout",
             "children": [
@@ -1547,96 +1631,12 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 4
-          },
-          {
-            "kind": "Var",
-            "name": "verificationFailed",
-            "printedName": "verificationFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VeryErrorType",
-                    "printedName": "VerySDK.VeryErrorType",
-                    "usr": "c:@M@VerySDK@E@VeryErrorType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "VerySDK.VeryErrorType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VeryErrorType",
-                        "printedName": "VerySDK.VeryErrorType",
-                        "usr": "c:@M@VerySDK@E@VeryErrorType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeVerificationFailed",
-            "mangledName": "$s7VerySDK0A9ErrorTypeO18verificationFailedyA2CmF",
-            "moduleName": "VerySDK",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 5
-          },
-          {
-            "kind": "Var",
-            "name": "enrollmentFailed",
-            "printedName": "enrollmentFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VeryErrorType",
-                    "printedName": "VerySDK.VeryErrorType",
-                    "usr": "c:@M@VerySDK@E@VeryErrorType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "VerySDK.VeryErrorType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VeryErrorType",
-                        "printedName": "VerySDK.VeryErrorType",
-                        "usr": "c:@M@VerySDK@E@VeryErrorType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeEnrollmentFailed",
-            "mangledName": "$s7VerySDK0A9ErrorTypeO16enrollmentFailedyA2CmF",
-            "moduleName": "VerySDK",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
             "fixedbinaryorder": 6
           },
           {
             "kind": "Var",
-            "name": "verificationExhausted",
-            "printedName": "verificationExhausted",
+            "name": "dnsError",
+            "printedName": "dnsError",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1666,14 +1666,98 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeVerificationExhausted",
-            "mangledName": "$s7VerySDK0A9ErrorTypeO21verificationExhaustedyA2CmF",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeDnsError",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO03dnsC0yA2CmF",
             "moduleName": "VerySDK",
             "declAttributes": [
               "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeNetworkError",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO07networkC0yA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "tlsError",
+            "printedName": "tlsError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeTlsError",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO03tlsC0yA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -1715,7 +1799,133 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "verificationFailed",
+            "printedName": "verificationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeVerificationFailed",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO18verificationFailedyA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "enrollmentFailed",
+            "printedName": "enrollmentFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeEnrollmentFailed",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO16enrollmentFailedyA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "verificationExhausted",
+            "printedName": "verificationExhausted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VerySDK.VeryErrorType.Type) -> VerySDK.VeryErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VeryErrorType",
+                    "printedName": "VerySDK.VeryErrorType",
+                    "usr": "c:@M@VerySDK@E@VeryErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VerySDK.VeryErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VeryErrorType",
+                        "printedName": "VerySDK.VeryErrorType",
+                        "usr": "c:@M@VerySDK@E@VeryErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@VerySDK@E@VeryErrorType@VeryErrorTypeVerificationExhausted",
+            "mangledName": "$s7VerySDK0A9ErrorTypeO21verificationExhaustedyA2CmF",
+            "moduleName": "VerySDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
           },
           {
             "kind": "Function",
@@ -3621,6 +3831,34 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5189,6 +5427,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5236,282 +5481,296 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2277,
+      "offset": 2519,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2364,
+      "offset": 2606,
       "length": 9,
       "value": "\"#F6F7F8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2416,
+      "offset": 2658,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 2426,
+      "offset": 2668,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2505,
+      "offset": 2747,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2591,
+      "offset": 2833,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 2601,
+      "offset": 2843,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2675,
+      "offset": 2917,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 2685,
+      "offset": 2927,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 2749,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "FloatLiteral",
-      "offset": 2759,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 2817,
-      "length": 9,
-      "value": "\"#E5E5E5\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 2907,
-      "length": 9,
-      "value": "\"#E5E5E5\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
       "offset": 2991,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3056,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3138,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3271,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3392,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 3492,
+      "offset": 3001,
       "length": 3,
-      "value": "0.2"
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3564,
+      "offset": 3059,
+      "length": 9,
+      "value": "\"#E5E5E5\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3149,
+      "length": 9,
+      "value": "\"#E5E5E5\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3233,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3298,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 3647,
+      "offset": 3380,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3513,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3634,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3724,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 3734,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3806,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3889,
       "length": 9,
       "value": "\"#E0E4EA\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3969,
+      "length": 9,
+      "value": "\"#C90508\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 3977,
+      "offset": 4265,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 3987,
+      "offset": 4275,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 4365,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 4168,
+      "offset": 4456,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 4178,
+      "offset": 4466,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 4263,
+      "offset": 4551,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 4273,
+      "offset": 4561,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 4342,
+      "offset": 4630,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 4352,
+      "offset": 4640,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 4603,
+      "offset": 4891,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 4668,
+      "offset": 4956,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 4750,
+      "offset": 5038,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 4883,
+      "offset": 5171,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5004,
+      "offset": 5292,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 5098,
+      "offset": 5386,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "FloatLiteral",
-      "offset": 5108,
+      "offset": 5396,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5190,
+      "offset": 5478,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
       "kind": "StringLiteral",
-      "offset": 5277,
+      "offset": 5565,
       "length": 9,
       "value": "\"#3A3F45\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/AuthTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5645,
+      "length": 9,
+      "value": "\"#C90508\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
@@ -5635,364 +5894,483 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2100,
+      "offset": 2183,
       "length": 4,
-      "value": "9001"
+      "value": "6101"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2167,
+      "offset": 2250,
       "length": 4,
-      "value": "9002"
+      "value": "6102"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2235,
+      "offset": 2337,
       "length": 4,
-      "value": "9003"
+      "value": "6103"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2302,
+      "offset": 2404,
       "length": 4,
-      "value": "9004"
+      "value": "6104"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2359,
+      "offset": 2642,
       "length": 4,
-      "value": "9006"
+      "value": "6105"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2467,
+      "offset": 2828,
       "length": 4,
-      "value": "5005"
+      "value": "6001"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2564,
+      "offset": 2899,
       "length": 4,
-      "value": "5003"
+      "value": "6002"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2649,
+      "offset": 2997,
       "length": 4,
-      "value": "5004"
+      "value": "6003"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2709,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2100,
+      "offset": 3111,
       "length": 4,
-      "value": "9001"
+      "value": "6004"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2167,
+      "offset": 3213,
       "length": 4,
-      "value": "9002"
+      "value": "6005"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2235,
+      "offset": 3324,
       "length": 4,
-      "value": "9003"
+      "value": "6006"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2302,
-      "length": 4,
-      "value": "9004"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2359,
-      "length": 4,
-      "value": "9006"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2467,
+      "offset": 3432,
       "length": 4,
       "value": "5005"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2564,
+      "offset": 3529,
       "length": 4,
       "value": "5003"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2649,
+      "offset": 3614,
       "length": 4,
       "value": "5004"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "IntegerLiteral",
-      "offset": 2709,
-      "length": 1,
-      "value": "0"
+      "offset": 2183,
+      "length": 4,
+      "value": "6101"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2250,
+      "length": 4,
+      "value": "6102"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2337,
+      "length": 4,
+      "value": "6103"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2404,
+      "length": 4,
+      "value": "6104"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 4,
+      "value": "6105"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2828,
+      "length": 4,
+      "value": "6001"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2899,
+      "length": 4,
+      "value": "6002"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2997,
+      "length": 4,
+      "value": "6003"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3111,
+      "length": 4,
+      "value": "6004"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3213,
+      "length": 4,
+      "value": "6005"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3324,
+      "length": 4,
+      "value": "6006"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3432,
+      "length": 4,
+      "value": "5005"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 4,
+      "value": "5003"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3614,
+      "length": 4,
+      "value": "5004"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4133,
+      "offset": 5180,
       "length": 6,
       "value": "\"dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "BooleanLiteral",
-      "offset": 4219,
+      "offset": 5266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4722,
+      "offset": 5769,
       "length": 10,
       "value": "\"VerySDK.VeryResult\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5816,
+      "offset": 6360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5845,
+      "offset": 6389,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5882,
+      "offset": 6426,
       "length": 6,
       "value": "0x8002"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5923,
+      "offset": 6467,
       "length": 6,
       "value": "0x8009"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 5965,
+      "offset": 6509,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6015,
+      "offset": 6559,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6048,
+      "offset": 6592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6084,
+      "offset": 6628,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6118,
+      "offset": 6662,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6160,
+      "offset": 6704,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6194,
+      "offset": 6738,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6225,
+      "offset": 6769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6256,
+      "offset": 6800,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6293,
+      "offset": 6837,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6330,
+      "offset": 6874,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6368,
+      "offset": 6912,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6404,
+      "offset": 6948,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6442,
+      "offset": 6986,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6480,
+      "offset": 7024,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6520,
+      "offset": 7064,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6561,
+      "offset": 7105,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6603,
+      "offset": 7147,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6653,
+      "offset": 7197,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6694,
+      "offset": 7238,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6732,
+      "offset": 7276,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6775,
+      "offset": 7319,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6810,
+      "offset": 7354,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6845,
+      "offset": 7389,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6926,
+      "offset": 7615,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6956,
+      "offset": 7655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 6984,
+      "offset": 7694,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7744,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7792,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7851,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7899,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7980,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/PalmNative.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8038,
       "length": 1,
       "value": "1"
     },
@@ -6013,44 +6391,72 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 980,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
-      "kind": "StringLiteral",
-      "offset": 3244,
-      "length": 13,
-      "value": "\"VerySDK-Api\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4582,
+      "offset": 1975,
       "length": 5,
       "value": "-1001"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 4640,
-      "length": 1,
-      "value": "0"
+      "offset": 2051,
+      "length": 5,
+      "value": "-1002"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 5180,
+      "offset": 2129,
+      "length": 5,
+      "value": "-1003"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2213,
+      "length": 5,
+      "value": "-1004"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2327,
+      "length": 5,
+      "value": "-1005"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2431,
       "length": 5,
       "value": "-1009"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2889,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2944,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "StringLiteral",
+      "offset": 5533,
+      "length": 13,
+      "value": "\"VerySDK-Api\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7477,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
@@ -6061,31 +6467,94 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 661,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 665,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4818,
+      "offset": 6347,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4886,
+      "offset": 6415,
       "length": 6,
       "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 19,
+      "value": "\"VerySDK-Telemetry\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 771,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "BooleanLiteral",
+      "offset": 962,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 30,
+      "value": "\"com.very.sdk.telemetry.state\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "Dictionary",
+      "offset": 1208,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 29,
+      "value": "\"com.very.sdk.telemetry.path\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryTelemetry.swift",
+      "kind": "StringLiteral",
+      "offset": 1676,
+      "length": 9,
+      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/AdjustmentHintView.swift",
@@ -6132,35 +6601,35 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 1320,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "FloatLiteral",
-      "offset": 1235,
+      "offset": 1523,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "FloatLiteral",
-      "offset": 1317,
+      "offset": 1605,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 1842,
       "length": 8,
       "value": "\"system\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "StringLiteral",
-      "offset": 473,
+      "offset": 761,
       "length": 15,
       "value": "\"VerySDK.BottomSheetView\""
     },
@@ -6698,24 +7167,24 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44489,
+      "offset": 43208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44533,
+      "offset": 43252,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 46977,
-      "length": 2,
-      "value": "56"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
@@ -6768,15 +7237,22 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/EmailVerifyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1311,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/EmailVerifyViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 917,
+      "offset": 1571,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/EmailVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1729,
       "length": 2,
       "value": "\"\""
     },
@@ -6895,23 +7371,16 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13568,
+      "offset": 14602,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38461,
+      "offset": 40867,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 42964,
-      "length": 2,
-      "value": "56"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
@@ -7406,51 +7875,114 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3167,
+      "offset": 3120,
       "length": 6,
-      "value": "\"9001\""
+      "value": "\"5015\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3199,
+      "offset": 3162,
       "length": 6,
-      "value": "\"9002\""
+      "value": "\"5016\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3201,
       "length": 6,
-      "value": "\"9003\""
+      "value": "\"5017\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3264,
+      "offset": 3240,
       "length": 6,
-      "value": "\"9004\""
+      "value": "\"5018\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3585,
       "length": 6,
-      "value": "\"9005\""
+      "value": "\"6101\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3617,
       "length": 6,
-      "value": "\"9006\""
+      "value": "\"6102\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3650,
       "length": 6,
-      "value": "\"9007\""
+      "value": "\"6103\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 3682,
+      "length": 6,
+      "value": "\"6104\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 3959,
+      "length": 6,
+      "value": "\"6105\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4055,
+      "length": 6,
+      "value": "\"6001\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4088,
+      "length": 6,
+      "value": "\"6002\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4115,
+      "length": 6,
+      "value": "\"6003\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4146,
+      "length": 6,
+      "value": "\"6004\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4183,
+      "length": 6,
+      "value": "\"6005\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4213,
+      "length": 6,
+      "value": "\"6006\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4289,
+      "length": 6,
+      "value": "\"6999\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
@@ -7924,58 +8456,611 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3167,
+      "offset": 3120,
       "length": 6,
-      "value": "\"9001\""
+      "value": "\"5015\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3199,
+      "offset": 3162,
       "length": 6,
-      "value": "\"9002\""
+      "value": "\"5016\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3201,
       "length": 6,
-      "value": "\"9003\""
+      "value": "\"5017\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3264,
+      "offset": 3240,
       "length": 6,
-      "value": "\"9004\""
+      "value": "\"5018\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3585,
       "length": 6,
-      "value": "\"9005\""
+      "value": "\"6101\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3617,
       "length": 6,
-      "value": "\"9006\""
+      "value": "\"6102\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3650,
       "length": 6,
-      "value": "\"9007\""
+      "value": "\"6103\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 3682,
+      "length": 6,
+      "value": "\"6104\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 3959,
+      "length": 6,
+      "value": "\"6105\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4055,
+      "length": 6,
+      "value": "\"6001\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4088,
+      "length": 6,
+      "value": "\"6002\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4115,
+      "length": 6,
+      "value": "\"6003\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4146,
+      "length": 6,
+      "value": "\"6004\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4183,
+      "length": 6,
+      "value": "\"6005\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4213,
+      "length": 6,
+      "value": "\"6006\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
+      "kind": "StringLiteral",
+      "offset": 4289,
+      "length": 6,
+      "value": "\"6999\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "Dictionary",
-      "offset": 4905,
-      "length": 3932,
-      "value": "[(\"1001\", \"Internal server error\"), (\"1002\", \"Palm scan\/match failure\"), (\"1003\", \"Palm model verification failed\"), (\"1004\", \"Failed to process palm model\"), (\"1005\", \"Failed to process palm match results\"), (\"1006\", \"Failed to get duplicated palm model ID\"), (\"1007\", \"Failed to verify palm model\"), (\"1008\", \"Failed to match main palm model\"), (\"1009\", \"Failed to match secondary palm model\"), (\"1010\", \"No matching palm ID found in match results\"), (\"1011\", \"Nonce is required\"), (\"1012\", \"Invalid or expired nonce\"), (\"1013\", \"Failed to verify nonce\"), (\"1014\", \"Failed to decode nonce\"), (\"1015\", \"Nonces must be the same\"), (\"1016\", \"Invalid request\"), (\"1017\", \"Missing required field\"), (\"1018\", \"No fields to update\"), (\"1019\", \"Both palms are required\"), (\"1020\", \"External user ID and client ID are required\"), (\"1021\", \"Identity commitment is required\"), (\"1022\", \"OAuth authorization request ID and client ID are required\"), (\"1023\", \"Invalid mode\"), (\"1024\", \"Refresh token is required\"), (\"1025\", \"Request body cannot be empty\"), (\"1026\", \"Failed to marshal review status\"), (\"1027\", \"Failed to marshal user\"), (\"1028\", \"Failed to marshal review\"), (\"1029\", \"User ID not found in JWT\"), (\"1030\", \"Invalid or expired token\"), (\"1031\", \"Resource not found\"), (\"1032\", \"User not found\"), (\"1033\", \"User not found by palm ID\"), (\"1034\", \"User not found with provided external ID and client ID\"), (\"1035\", \"User palms not found\"), (\"1036\", \"Review not found\"), (\"1037\", \"Palm model does not match any registered palm for this user\"), (\"1038\", \"Palm model does not match the user associated with the external ID\"), (\"1039\", \"No matching user found\"), (\"1040\", \"We couldn't sign you in. Your email may not be registered yet, or your credentials may be incorrect. Please check and try again.\"), (\"2001\", \"Internal server error\"), (\"2002\", \"User not found\"), (\"2003\", \"Invalid username\"), (\"2004\", \"Email already in use\"), (\"2005\", \"No pending email change\"), (\"2006\", \"Invalid verification code\"), (\"2007\", \"Verification code expired\"), (\"2008\", \"Verification rate limit exceeded\"), (\"2009\", \"User palm not found\"), (\"2010\", \"Review not found\"), (\"2011\", \"Invalid request\"), (\"3000\", \"Palm Matching Service internal server error\"), (\"4000\", \"Connect Service internal server error\"), (\"5001\", \"Session has expired\"), (\"5002\", \"Session not found or already consumed\"), (\"5003\", \"Please try again.\"), (\"5004\", \"All verification attempts have been used\"), (\"5005\", \"Palm verification failed: no match found\"), (\"5006\", \"Nonce is invalid or has already been consumed\"), (\"5007\", \"Nonce has expired\"), (\"5008\", \"Invalid SDK API key\"), (\"5009\", \"SDK API key has been revoked\"), (\"5010\", \"Account review was permanently rejected\"), (\"5011\", \"Account enrollment is still under review\"), (\"5012\", \"Re-enrollment is only allowed when review status is rejected\"), (\"5013\", \"Too many requests, please try again later\"), (\"5014\", \"Palm model data is malformed or corrupt\"), (\"9001\", \"Camera permission is required to scan your palm.\"), (\"9002\", \"Failed to capture palm data.\"), (\"9003\", \"Session expired. Please try again.\"), (\"9004\", \"User cancelled.\"), (\"9005\", \"An unknown error occurred.\"), (\"9006\", \"Request timed out.\"), (\"9007\", \"Network error. Please check your internet connection and try again.\")]"
+      "offset": 6436,
+      "length": 4984,
+      "value": "[(\"1001\", \"Internal server error\"), (\"1002\", \"Palm scan\/match failure\"), (\"1003\", \"Palm model verification failed\"), (\"1004\", \"Failed to process palm model\"), (\"1005\", \"Failed to process palm match results\"), (\"1006\", \"Failed to get duplicated palm model ID\"), (\"1007\", \"Failed to verify palm model\"), (\"1008\", \"Failed to match main palm model\"), (\"1009\", \"Failed to match secondary palm model\"), (\"1010\", \"No matching palm ID found in match results\"), (\"1011\", \"Nonce is required\"), (\"1012\", \"Invalid or expired nonce\"), (\"1013\", \"Failed to verify nonce\"), (\"1014\", \"Failed to decode nonce\"), (\"1015\", \"Nonces must be the same\"), (\"1016\", \"Invalid request\"), (\"1017\", \"Missing required field\"), (\"1018\", \"No fields to update\"), (\"1019\", \"Both palms are required\"), (\"1020\", \"External user ID and client ID are required\"), (\"1021\", \"Identity commitment is required\"), (\"1022\", \"OAuth authorization request ID and client ID are required\"), (\"1023\", \"Invalid mode\"), (\"1024\", \"Refresh token is required\"), (\"1025\", \"Request body cannot be empty\"), (\"1026\", \"Failed to marshal review status\"), (\"1027\", \"Failed to marshal user\"), (\"1028\", \"Failed to marshal review\"), (\"1029\", \"User ID not found in JWT\"), (\"1030\", \"Invalid or expired token\"), (\"1031\", \"Resource not found\"), (\"1032\", \"User not found\"), (\"1033\", \"User not found by palm ID\"), (\"1034\", \"User not found with provided external ID and client ID\"), (\"1035\", \"User palms not found\"), (\"1036\", \"Review not found\"), (\"1037\", \"Palm model does not match any registered palm for this user\"), (\"1038\", \"Palm model does not match the user associated with the external ID\"), (\"1039\", \"No matching user found\"), (\"1040\", \"We couldn't sign you in. Your email may not be registered yet, or your credentials may be incorrect. Please check and try again.\"), (\"2001\", \"Internal server error\"), (\"2002\", \"User not found\"), (\"2003\", \"Invalid username\"), (\"2004\", \"Email already in use\"), (\"2005\", \"No pending email change\"), (\"2006\", \"Invalid verification code\"), (\"2007\", \"Verification code expired\"), (\"2008\", \"Verification rate limit exceeded\"), (\"2009\", \"User palm not found\"), (\"2010\", \"Review not found\"), (\"2011\", \"Invalid request\"), (\"3000\", \"Palm Matching Service internal server error\"), (\"4000\", \"Connect Service internal server error\"), (\"5001\", \"Session expired. Please start again.\"), (\"5002\", \"Session not found or already consumed.\"), (\"5003\", \"Please try again.\"), (\"5004\", \"All verification attempts have been used.\"), (\"5005\", \"We couldn't verify your palm. Please try again.\"), (\"5006\", \"Session expired, please try again.\"), (\"5007\", \"Session expired, please try again.\"), (\"5008\", \"Something went wrong. Please contact support.\"), (\"5009\", \"Something went wrong. Please contact support.\"), (\"5010\", \"Account review was permanently rejected.\"), (\"5011\", \"Account enrollment is still under review.\"), (\"5012\", \"Re-enrollment is only allowed when review status is rejected.\"), (\"5013\", \"Too many requests. Please try again later.\"), (\"5014\", \"Something went wrong. Please try again.\"), (\"5015\", \"Please verify your email first.\"), (\"5016\", \"Email has already been verified for this session.\"), (\"5017\", \"Your account is restricted and cannot proceed.\"), (\"5018\", \"Email verification is not available for this session.\"), (\"6101\", \"To scan your palm, please allow camera access in your phone's settings.\"), (\"6102\", \"We couldn't complete the scan. Please try again.\"), (\"6103\", \"Session expired. Please try again.\"), (\"6104\", \"User cancelled.\"), (\"6105\", \"VerySDK requires NSCameraUsageDescription in the host app's Info.plist. Add a 'Privacy - Camera Usage Description' key explaining why your app needs the camera, then rebuild.\"), (\"6001\", \"Couldn't connect. Check your internet and try again.\"), (\"6002\", \"Took too long to get a response. Check your connection and try again.\"), (\"6003\", \"Can't resolve our servers. Check your network or try switching networks.\"), (\"6004\", \"Network error. Please check your connection and try again.\"), (\"6005\", \"Secure connection failed. Check your device date & time.\"), (\"6006\", \"Our servers are having issues. Please try again shortly.\"), (\"6999\", \"Something went wrong. Please try again.\")]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 15,
+      "value": "\"wifi-off-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1920,
+      "length": 28,
+      "value": "\"error.title.connectionLost\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 17,
+      "value": "\"Connection lost\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 27,
+      "value": "\"error.body.connectionLost\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2058,
+      "length": 38,
+      "value": "\"You're offline. Check your internet.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 20,
+      "value": "\"error.cta.tryAgain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2156,
+      "length": 11,
+      "value": "\"Try again\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2274,
+      "length": 11,
+      "value": "\"time-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2305,
+      "length": 25,
+      "value": "\"error.title.rateLimited\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
+      "length": 15,
+      "value": "\"Just a moment\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2388,
+      "length": 24,
+      "value": "\"error.body.rateLimited\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2569,
+      "length": 24,
+      "value": "\"Try again in a moment.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2611,
+      "length": 20,
+      "value": "\"error.cta.tryAgain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2653,
+      "length": 11,
+      "value": "\"Try again\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2777,
+      "length": 14,
+      "value": "\"refresh-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2811,
+      "length": 28,
+      "value": "\"error.title.sessionExpired\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2863,
+      "length": 19,
+      "value": "\"Let's start fresh\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2901,
+      "length": 27,
+      "value": "\"error.body.sessionExpired\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 2951,
+      "length": 47,
+      "value": "\"Your session timed out. Let's try that again.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3016,
+      "length": 21,
+      "value": "\"error.cta.startOver\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3059,
+      "length": 12,
+      "value": "\"Start over\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3182,
+      "length": 18,
+      "value": "\"information-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3220,
+      "length": 26,
+      "value": "\"error.title.checkAccount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3270,
+      "length": 20,
+      "value": "\"Check your account\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 25,
+      "value": "\"error.body.checkAccount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3357,
+      "length": 50,
+      "value": "\"Your last attempt may have already gone through.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3425,
+      "length": 24,
+      "value": "\"error.cta.checkAccount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3471,
+      "length": 18,
+      "value": "\"Check my account\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3606,
+      "length": 17,
+      "value": "\"camera-off-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3643,
+      "length": 30,
+      "value": "\"error.title.cameraPermission\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3697,
+      "length": 21,
+      "value": "\"We need your camera\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3737,
+      "length": 29,
+      "value": "\"error.body.cameraPermission\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3789,
+      "length": 36,
+      "value": "\"Turn on camera access in settings.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3843,
+      "length": 24,
+      "value": "\"error.cta.openSettings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 3889,
+      "length": 15,
+      "value": "\"Open settings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 17,
+      "value": "\"camera-off-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4050,
+      "length": 26,
+      "value": "\"error.title.palmMismatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4100,
+      "length": 19,
+      "value": "\"That didn't match\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4138,
+      "length": 25,
+      "value": "\"error.body.palmMismatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4186,
+      "length": 31,
+      "value": "\"We couldn't verify your palm.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4235,
+      "length": 20,
+      "value": "\"error.cta.tryAgain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4277,
+      "length": 11,
+      "value": "\"Try again\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 17,
+      "value": "\"camera-off-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4430,
+      "length": 24,
+      "value": "\"error.title.scanFailed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4478,
+      "length": 18,
+      "value": "\"Scan didn't work\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4515,
+      "length": 23,
+      "value": "\"error.body.scanFailed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4561,
+      "length": 52,
+      "value": "\"Move to better lighting and keep your hand steady.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4631,
+      "length": 20,
+      "value": "\"error.cta.tryAgain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4673,
+      "length": 11,
+      "value": "\"Try again\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 18,
+      "value": "\"user-follow-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4829,
+      "length": 25,
+      "value": "\"error.title.restrictive\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4878,
+      "length": 19,
+      "value": "\"We can't continue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5077,
+      "length": 24,
+      "value": "\"error.body.restrictive\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5124,
+      "length": 42,
+      "value": "\"We're unable to complete this right now.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5184,
+      "length": 26,
+      "value": "\"error.cta.contactSupport\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5232,
+      "length": 17,
+      "value": "\"Contact support\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5354,
+      "length": 23,
+      "value": "\"warning-triangle-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5397,
+      "length": 24,
+      "value": "\"error.title.setupIssue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5445,
+      "length": 17,
+      "value": "\"App setup issue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5481,
+      "length": 23,
+      "value": "\"error.body.setupIssue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5527,
+      "length": 55,
+      "value": "\"This app has a setup problem. Please contact support.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5600,
+      "length": 17,
+      "value": "\"error.cta.close\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5639,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5761,
+      "length": 23,
+      "value": "\"warning-triangle-line\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5804,
+      "length": 29,
+      "value": "\"error.title.serverTransient\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5857,
+      "length": 18,
+      "value": "\"That didn't work\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5894,
+      "length": 28,
+      "value": "\"error.body.serverTransient\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5945,
+      "length": 29,
+      "value": "\"Something broke on our end.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 5992,
+      "length": 20,
+      "value": "\"error.cta.tryAgain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKErrorPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 6034,
+      "length": 11,
+      "value": "\"Try again\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKExitHandler.swift",
@@ -7987,7 +9072,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKExitHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3200,
+      "offset": 5721,
       "length": 5,
       "value": "false"
     },

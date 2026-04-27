@@ -348,24 +348,36 @@ SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 /// High-level error categories for partner-facing error handling.
 /// Maps from internal SDK error codes to user-friendly categories.
 typedef SWIFT_ENUM(NSInteger, VeryErrorType, open) {
-/// Camera permission not granted (9001)
-  VeryErrorTypeCameraPermissionDenied = 9001,
-/// Camera capture failed (9002)
-  VeryErrorTypeCaptureFailed = 9002,
-/// Session expired (9003, 5001)
-  VeryErrorTypeSessionExpired = 9003,
-/// User dismissed the SDK (9004)
-  VeryErrorTypeUserCanceled = 9004,
-/// Request timed out (9006)
-  VeryErrorTypeTimeout = 9006,
+/// Camera permission not granted (6101)
+  VeryErrorTypeCameraPermissionDenied = 6101,
+/// Camera capture failed (6102)
+  VeryErrorTypeCaptureFailed = 6102,
+/// Session expired (6103; also maps from SDK 5001)
+  VeryErrorTypeSessionExpired = 6103,
+/// User dismissed the SDK (6104)
+  VeryErrorTypeUserCanceled = 6104,
+/// Host app’s Info.plist is missing NSCameraUsageDescription (6105).
+/// Developer setup error — the host app must add the key before the
+/// SDK can request camera permission.
+  VeryErrorTypeMissingCameraUsageDescription = 6105,
+/// Couldn’t connect — no internet, airplane mode, or server unreachable (6001)
+  VeryErrorTypeNoInternet = 6001,
+/// Took too long to get a response (6002)
+  VeryErrorTypeTimeout = 6002,
+/// Can’t resolve our servers — captive portal or DNS issue (6003)
+  VeryErrorTypeDnsError = 6003,
+/// Generic network error — dropped, refused, or interrupted connection (6004)
+  VeryErrorTypeNetworkError = 6004,
+/// Secure (TLS) connection failed — usually device clock issue (6005)
+  VeryErrorTypeTlsError = 6005,
+/// Our servers are having issues (6006); also the fallback for unknown codes.
+  VeryErrorTypeServerError = 6006,
 /// Palm verification failed — didn’t match registered user (5005)
   VeryErrorTypeVerificationFailed = 5005,
 /// Enrollment failed — flagged by fraud screening (5003)
   VeryErrorTypeEnrollmentFailed = 5003,
 /// Verification attempts exhausted (5004)
   VeryErrorTypeVerificationExhausted = 5004,
-/// Server or unknown error
-  VeryErrorTypeServerError = 0,
 };
 
 /// Liveness detection mode for palm scanning

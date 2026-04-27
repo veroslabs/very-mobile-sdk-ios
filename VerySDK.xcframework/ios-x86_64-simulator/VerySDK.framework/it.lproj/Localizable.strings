@@ -41,7 +41,7 @@
 "workthrough.getStarted" = "Inizia";
 
 /* Error Messages */
-"error.5001" = "Session has expired.";
+"error.5001" = "Session expired. Please start again.";
 "error.5002" = "Session not found or already consumed.";
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
@@ -53,15 +53,16 @@
 "error.5010" = "Account review was permanently rejected.";
 "error.5011" = "Account enrollment is still under review.";
 "error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests, please try again later.";
+"error.5013" = "Too many requests. Please try again later.";
 "error.5014" = "Qualcosa è andato storto. Per favore riprova.";
-"error.9001" = "Per scansionare il palmo, consenti l'accesso alla fotocamera nelle impostazioni del telefono.";
-"error.9002" = "Non siamo riusciti a completare la scansione. Per favore riprova.";
-"error.9003" = "Session expired. Please try again.";
-"error.9004" = "User cancelled.";
-"error.9005" = "An unknown error occurred.";
-"error.9006" = "Request timed out.";
-"error.9007" = "Errore di rete. Controlla la connessione a internet e riprova.";
+"error.5015" = "Please verify your email first.";
+"error.5016" = "Email has already been verified for this session.";
+"error.5017" = "Your account is restricted and cannot proceed.";
+"error.5018" = "Email verification is not available for this session.";
+"error.6101" = "Per scansionare il palmo, consenti l'accesso alla fotocamera nelle impostazioni del telefono.";
+"error.6102" = "Non siamo riusciti a completare la scansione. Per favore riprova.";
+"error.6103" = "Session expired. Please try again.";
+"error.6104" = "User cancelled.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Il tuo palmo è stato verificato.";
@@ -70,6 +71,7 @@
 /* Common UI */
 "common.poweredBy" = "Powered by";
 "common.loading" = "caricamento…";
+"common.retrying" = "Nuovo tentativo…";
 "common.success" = "Successo";
 "common.error" = "Errore";
 "common.done" = "Fatto";
@@ -115,3 +117,44 @@
 "accountRestricted.getInTouch" = "Contattaci";
 "accountRestricted.cancel" = "Annulla";
 "consent.tip1" = "Crea un account scansionando entrambi i palmi. Riverifica con una sola scansione";
+"error.6001" = "Impossibile connettersi. Controlla la tua connessione Internet e riprova.";
+"error.6002" = "La risposta ha impiegato troppo tempo. Controlla la tua connessione e riprova.";
+"error.6003" = "Impossibile risolvere i nostri server. Controlla la tua rete o prova una diversa.";
+"error.6004" = "Errore di rete. Controlla la tua connessione e riprova.";
+"error.6005" = "Connessione sicura non riuscita. Controlla data e ora del dispositivo.";
+"error.6006" = "I nostri server hanno problemi. Riprova tra poco.";
+"error.6999" = "Si è verificato un errore. Riprova.";
+
+/* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
+"error.title.connectionLost" = "Connection lost";
+"error.body.connectionLost" = "You're offline. Check your internet.";
+"error.title.rateLimited" = "Just a moment";
+"error.body.rateLimited" = "Try again in a moment.";
+"error.title.sessionExpired" = "Let's start fresh";
+"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
+"error.title.checkAccount" = "Check your account";
+"error.body.checkAccount" = "Your last attempt may have already gone through.";
+"error.title.cameraPermission" = "We need your camera";
+"error.body.cameraPermission" = "Turn on camera access in settings.";
+"error.title.palmMismatch" = "That didn't match";
+"error.body.palmMismatch" = "We couldn't verify your palm.";
+"error.title.scanFailed" = "Scan didn't work";
+"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
+"error.title.restrictive" = "We can't continue";
+"error.body.restrictive" = "We're unable to complete this right now.";
+"error.title.setupIssue" = "App setup issue";
+"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
+"error.title.serverTransient" = "That didn't work";
+"error.body.serverTransient" = "Something broke on our end.";
+"error.cta.tryAgain" = "Try again";
+"error.cta.startOver" = "Start over";
+"error.cta.checkAccount" = "Check my account";
+"error.cta.openSettings" = "Open settings";
+"error.cta.contactSupport" = "Contact support";
+"error.cta.close" = "Close";
+
+/* VER-491 inline: field-level email verify errors (2006/2007) */
+"email.inlineCodeInvalid" = "Code is incorrect.";
+"email.inlineCodeExpired" = "Code has expired. Request a new code.";
+"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
+"email.inlineCodeGeneric" = "Verification failed.";
