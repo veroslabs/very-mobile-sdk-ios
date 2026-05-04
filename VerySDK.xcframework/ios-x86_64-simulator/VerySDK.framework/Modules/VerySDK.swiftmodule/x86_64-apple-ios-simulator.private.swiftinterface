@@ -6,7 +6,9 @@ import AVKit
 import CommonCrypto
 import CoreText
 import CryptoKit
+import Darwin
 import Foundation
+import MachO
 import Network
 import ObjectiveC
 import Swift

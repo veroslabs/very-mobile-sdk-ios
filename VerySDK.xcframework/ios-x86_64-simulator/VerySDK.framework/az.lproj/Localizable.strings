@@ -65,6 +65,7 @@
 "error.6102" = "Skanı tamamlaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
 "error.6103" = "Session expired. Please try again.";
 "error.6104" = "User cancelled.";
+"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Ovucunuz doğrulandı.";

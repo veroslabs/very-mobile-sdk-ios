@@ -65,6 +65,7 @@
 "error.6102" = "ස්කෑන් කිරීම සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.6103" = "Session expired. Please try again.";
 "error.6104" = "User cancelled.";
+"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය කරන ලදී.";

@@ -13,7 +13,7 @@ Native palm biometric SDK for iOS and Android. Provides session-based palm enrol
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/nicklin99/very-sdk.git", from: "1.0.0")
+    .package(url: "https://github.com/veroslabs/very-sdk-ios.git", from: "1.0.0")
 ]
 ```
 
@@ -27,9 +27,60 @@ pod 'VerySDK', '~> 1.0.0'
 
 ```gradle
 dependencies {
-    implementation 'org.very:verysdk:1.0.0'
+    implementation 'org.very:sdk:1.0.0'
 }
 ```
+
+### React Native — npm
+
+```bash
+npm install @veryai/react-native-sdk
+cd ios && pod install
+```
+
+See [`react-native/README.md`](react-native/README.md) for full RN integration docs.
+
+## Asset Loading: Bundled vs Slim
+
+The native palm-recognition asset (~8 MB on iOS, ~18 MB per ABI on Android) ships **bundled inside the SDK by default**. Your app works offline and the first scan is instant. If you'd rather keep your binary small and have the SDK fetch the asset from CDN on first scan, opt into slim mode per platform.
+
+| Mode              | App size impact                       | First-scan UX              | Works offline        |
+|-------------------|---------------------------------------|----------------------------|----------------------|
+| Bundled (default) | +8 MB iOS, +18 MB per ABI Android     | instant                    | yes                  |
+| Slim              | none                                  | one-time download (5–15 s) | no (first scan only) |
+
+Cached assets persist across launches; the download only happens once.
+
+**iOS — opt into slim**
+
+```ruby
+# CocoaPods
+pod 'VerySDK/Core'
+```
+
+```swift
+// SPM
+.product(name: "VerySDKSlim", package: "very-sdk-ios")
+```
+
+**Android — opt into slim** (in your **app** `build.gradle`):
+
+```gradle
+android {
+    packaging {
+        jniLibs {
+            excludes += '**/libPalmAPISaas.so'
+        }
+    }
+}
+```
+
+**CDN endpoints** (allowlist if your network restricts egress):
+
+| Asset                                | Primary                                    | Backup                                    |
+|--------------------------------------|--------------------------------------------|-------------------------------------------|
+| Android `libPalmAPISaas.so` per ABI  | `assets.very.org/sdk/data/<abi>/...`       | `r2.assets.very.org/sdk/v1/<abi>/...`     |
+| iOS `packed_data.bin`                | `assets.very.org/sdk/data/packed_data.bin` | `r2.assets.very.org/sdk/v1/packed_data.bin` |
 
 ## Quick Start
 
@@ -188,7 +239,8 @@ On success, the SDK returns a `signedToken` — an Ed25519-signed JWT that crypt
 | 5017        | SDK Account           | Account restricted — blocked from all operations |
 | 5018        | SDK Email             | Email flow disabled (partner has `skipEmail` enabled) |
 | 6001–6006, 6999 | Network / client   | No internet, timeout, DNS, TLS, server error, unknown |
-| 9001–9004   | Client-side           | Camera permission denied, capture failed, session, user cancelled |
+| 6101–6104   | SDK state             | Camera permission denied, capture failed, session expired, user cancelled |
+| 6106        | Native asset          | Could not load palm scanning library (slim-mode CDN download failed) |
 
 ## Platform Setup
 
@@ -212,9 +264,57 @@ The SDK declares these permissions in its manifest (merged automatically):
 
 ## Supported Languages
 
-36 languages: English, Chinese (Simplified / Traditional / Hong Kong), Japanese, Korean, French, German, Spanish, Portuguese, Italian, Dutch, Russian, Arabic, Turkish, Vietnamese, Indonesian, Filipino, Swedish, Danish, Polish, Romanian, Hungarian, Czech, Slovak, Slovenian, Bulgarian, Ukrainian, Greek, Latvian, Persian, Azerbaijani, Kazakh, Lao, Sinhala, English (India).
+The SDK ships with **36 localizations**. Set the language via `config.language` using one of the codes below. Codes are case-insensitive, and BCP-47 region tags (e.g. `en-US`, `pt-BR`) are accepted as aliases. Unknown or empty codes fall back to English.
 
-Set via `config.language` using codes: `en`, `zh`, `zhTw`, `zhHk`, `ja`, `ko`, `fr`, `de`, `es`, `pt`, `it`, `nl`, `ru`, `ar`, `tr`, `vi`, `id`, `fil`, `sv`, `da`, `pl`, `ro`, `hu`, `cs`, `sk`, `sl`, `bg`, `uk`, `el`, `lv`, `fa`, `az`, `kk`, `lo`, `si`, `enIn`.
+| Language               | Native name        | Code     | Accepted aliases          |
+|------------------------|--------------------|----------|---------------------------|
+| English                | English            | `en`     | `en-US`, `en-GB`, `en-TR` |
+| English (India)        | English (India)    | `enIn`   | `en-IN`                   |
+| Chinese (Simplified)   | 简体中文           | `zh`     | `zh-MY`                   |
+| Chinese (Traditional)  | 繁體中文           | `zhTw`   | `zh-TW`                   |
+| Chinese (Hong Kong)    | 繁體中文（香港）   | `zhHk`   | `zh-HK`                   |
+| Japanese               | 日本語             | `ja`     | `ja-JP`                   |
+| Korean                 | 한국어             | `ko`     | `ko-KR`                   |
+| French                 | Français           | `fr`     | `fr-FR`                   |
+| German                 | Deutsch            | `de`     | `de-DE`                   |
+| Spanish                | Español            | `es`     | `es-ES`                   |
+| Portuguese             | Português          | `pt`     | `pt-BR`, `pt-PT`          |
+| Italian                | Italiano           | `it`     | `it-IT`                   |
+| Dutch                  | Nederlands         | `nl`     | `nl-NL`                   |
+| Russian                | Русский            | `ru`     | `ru-RU`                   |
+| Arabic                 | العربية            | `ar`     | `ar-AE`                   |
+| Turkish                | Türkçe             | `tr`     | `tr-TR`, `tr-CT`          |
+| Vietnamese             | Tiếng Việt         | `vi`     | `vi-VN`                   |
+| Indonesian             | Bahasa Indonesia   | `id`     | `id-ID`                   |
+| Filipino               | Filipino           | `fil`    | `fil-PH`                  |
+| Swedish                | Svenska            | `sv`     | `sv-SE`                   |
+| Danish                 | Dansk              | `da`     | `da-DK`                   |
+| Polish                 | Polski             | `pl`     | `pl-PL`                   |
+| Romanian               | Română             | `ro`     | `ro-RO`                   |
+| Hungarian              | Magyar             | `hu`     | `hu-HU`                   |
+| Czech                  | Čeština            | `cs`     | `cs-CZ`                   |
+| Slovak                 | Slovenčina         | `sk`     | `sk-SK`                   |
+| Slovenian              | Slovenščina        | `sl`     | `sl-SI`                   |
+| Bulgarian              | Български          | `bg`     | `bg-BG`                   |
+| Ukrainian              | Українська         | `uk`     | `uk-UA`                   |
+| Greek                  | Ελληνικά           | `el`     | `el-GR`                   |
+| Latvian                | Latviešu           | `lv`     | `lv-LV`                   |
+| Persian                | فارسی              | `fa`     | `fa-IR`                   |
+| Azerbaijani            | Azərbaycanca       | `az`     | `az-AZ`                   |
+| Kazakh                 | Қазақша            | `kk`     | `kk-KZ`                   |
+| Lao                    | ລາວ                | `lo`     | `lo-LA`                   |
+| Sinhala                | සිංහල              | `si`     | `si-LK`                   |
+
+**Resource locations**
+
+| Platform | Default (English)                       | Other locales                                         |
+|----------|-----------------------------------------|-------------------------------------------------------|
+| Android  | `android/src/main/res/values/strings.xml` | `values-{lang}/strings.xml` (e.g. `values-zh-rTW`)  |
+| iOS      | `ios/Resources/en.lproj/Localizable.strings` | `{lang}.lproj/Localizable.strings` (e.g. `zhTw.lproj`) |
+
+**Notes**
+- Android uses `snake_case` keys; iOS uses `camelCase.dotSeparated`. The English file is authoritative — any text change must update English plus all 35 other locale files on both platforms.
+- Language mapping is implemented in `LocalizationManager` on both platforms; add new aliases there, not at call sites.
 
 ## Requirements
 
@@ -225,11 +325,13 @@ Set via `config.language` using codes: `en`, `zh`, `zhTw`, `zhHk`, `ja`, `ko`, `
 
 ## Example Projects
 
-| Platform    | Location                     | Language      |
-|-------------|------------------------------|---------------|
-| iOS (Swift) | `examples/IOSMobileExample/` | Swift / SwiftUI |
-| iOS (ObjC)  | `examples/IOSExampleOC/`     | Objective-C   |
-| Android     | `examples/android/`          | Kotlin        |
+| Platform     | Location                          | Language        |
+|--------------|-----------------------------------|-----------------|
+| iOS (Swift)  | `examples/IOSMobileExample/`      | Swift / SwiftUI |
+| iOS (ObjC)   | `examples/IOSExampleOC/`          | Objective-C     |
+| Android      | `examples/android/`               | Kotlin          |
+| React Native | `examples/ReactNativeExample/`    | TypeScript      |
+| Expo         | `examples/ExpoNewArchExample/`    | TypeScript      |
 
 ## License
 
