@@ -431,6 +431,23 @@ SWIFT_CLASS("_TtC7VerySDK7VerySDK")
 /// \param callback Completion handler with VeryResult
 ///
 + (void)authenticateFrom:(UIViewController * _Nonnull)viewController config:(VeryConfig * _Nonnull)config presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nonnull)(VeryResult * _Nonnull))completion;
+/// Run a liveness check — opens the same scan UI as <code>authenticate</code> but
+/// captures a single palm with no createSession / verify / enroll API
+/// calls. Used by partners that just need to confirm a live human palm
+/// without going through full enrollment or verification.
+/// The host completion fires with <code>VeryResult(code: "success", ...)</code> once
+/// the capture completes, or a cancel/error result if the user dismisses
+/// the page or the camera/native lib fails.
+/// \param viewController The view controller to present from.
+///
+/// \param config Optional VeryConfig for theme/language/debug logging.
+/// sdkKey/userId are ignored in liveness mode.
+///
+/// \param presentationStyle How the page is presented (default <code>.modal</code>).
+///
+/// \param completion Result callback — fired once on completion.
+///
++ (void)livenessCheckFrom:(UIViewController * _Nonnull)viewController config:(VeryConfig * _Nonnull)config presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nonnull)(VeryResult * _Nonnull))completion;
 /// Start palm verification flow (legacy method for backward compatibility)
 + (void)startPalmVerificationFrom:(UIViewController * _Nonnull)viewController presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
 /// Check if palm verification was successful
