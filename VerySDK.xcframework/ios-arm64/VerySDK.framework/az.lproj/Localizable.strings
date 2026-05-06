@@ -92,6 +92,7 @@
 "scan.showGesture" = "Jesti göstərin";
 "scan.connectDots" = "Nöqtələri birləşdirin";
 "scan.almostDone" = "Demək olar ki hazırdır";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Ovuclar qeydiyyat olunur";
 "scan.verifyingPalm" = "Ovuc doğrulanır";
 "scan.successTitleVerified" = "Təsdiqləndi";

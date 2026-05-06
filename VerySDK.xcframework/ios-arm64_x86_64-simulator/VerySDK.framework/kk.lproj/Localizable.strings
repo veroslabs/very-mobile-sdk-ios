@@ -92,6 +92,7 @@
 "scan.showGesture" = "Қимылды көрсетіңіз";
 "scan.connectDots" = "Нүктелерді қосыңыз";
 "scan.almostDone" = "Аяқталуға жақын";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Алақандар тіркелуде";
 "scan.verifyingPalm" = "Алақан расталуда";
 "scan.successTitleVerified" = "Расталды";

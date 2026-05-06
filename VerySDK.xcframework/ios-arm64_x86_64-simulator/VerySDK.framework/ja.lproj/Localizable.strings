@@ -90,6 +90,7 @@
 "scan.showGesture" = "ジェスチャーを表示";
 "scan.connectDots" = "点をつなげる";
 "scan.almostDone" = "もう少しです";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "手のひらを登録中";
 "scan.verifyingPalm" = "手のひらを認証中";
 "scan.successTitleVerified" = "認証完了";

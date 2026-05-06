@@ -90,6 +90,7 @@
 "scan.showGesture" = "Visa gest";
 "scan.connectDots" = "Koppla ihop punkterna";
 "scan.almostDone" = "Nästan klart";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Registrerar handflator";
 "scan.verifyingPalm" = "Verifierar handflata";
 "scan.successTitleVerified" = "Verifierad";

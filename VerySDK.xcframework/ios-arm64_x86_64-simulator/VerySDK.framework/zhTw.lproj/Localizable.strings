@@ -90,6 +90,7 @@
 "scan.showGesture" = "顯示手勢";
 "scan.connectDots" = "連接圓點";
 "scan.almostDone" = "即將完成";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "正在註冊手掌";
 "scan.verifyingPalm" = "正在驗證手掌";
 "scan.successTitleVerified" = "驗證成功";

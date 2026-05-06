@@ -92,6 +92,7 @@
 "scan.showGesture" = "Ipakita ang galaw";
 "scan.connectDots" = "Ikonekta ang mga tuldok";
 "scan.almostDone" = "Halos tapos na";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Inirerehistro ang mga palad";
 "scan.verifyingPalm" = "Vine-verify ang palad";
 "scan.successTitleVerified" = "Na-verify";

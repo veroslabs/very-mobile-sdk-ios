@@ -3,11 +3,14 @@ import Foundation
 /// Bridge that lets the main `VerySDK` target locate this auxiliary
 /// target's resource bundle without a compile-time dependency.
 ///
-/// The slim distribution (`VerySDKSlim` SPM product / `VerySDK/Core`
-/// CocoaPods subspec) compiles WITHOUT this target, so `VerySDK` cannot
-/// `import VerySDKBundledModel`. Instead it looks the class up at
-/// runtime via `NSClassFromString("VerySDKBundledModelBundle")` —
-/// returning the URL when present, nil when slim.
+/// The slim SPM distribution (`VerySDKSlim`) compiles WITHOUT this target,
+/// so `VerySDK` cannot `import VerySDKBundledModel`. Instead it looks the
+/// class up at runtime via `NSClassFromString("VerySDKBundledModelBundle")`
+/// — returning the URL when present, nil when slim.
+///
+/// CocoaPods does not compile this Swift file; its `VerySDK/Bundled` subspec
+/// is resource-only so it cannot create a pod target module named `VerySDK`
+/// that shadows the vendored binary framework module.
 ///
 /// `@objc(VerySDKBundledModelBundle)` pins the Objective-C name so the
 /// runtime lookup works regardless of Swift module mangling.

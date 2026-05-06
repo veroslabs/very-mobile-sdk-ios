@@ -92,6 +92,7 @@
 "scan.showGesture" = "Vis gestus";
 "scan.connectDots" = "Forbind prikkerne";
 "scan.almostDone" = "Næsten færdig";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Registrerer håndflader";
 "scan.verifyingPalm" = "Verificerer håndflade";
 "scan.successTitleVerified" = "Bekræftet";

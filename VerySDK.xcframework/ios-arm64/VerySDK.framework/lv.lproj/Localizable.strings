@@ -92,6 +92,7 @@
 "scan.showGesture" = "Parādiet žestu";
 "scan.connectDots" = "Savienojiet punktus";
 "scan.almostDone" = "Gandrīz gatavs";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Plaukstu reģistrēšana";
 "scan.verifyingPalm" = "Plaukstas verificēšana";
 "scan.successTitleVerified" = "Verificēts";

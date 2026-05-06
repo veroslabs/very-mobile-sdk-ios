@@ -92,6 +92,7 @@
 "scan.showGesture" = "Arătați gestul";
 "scan.connectDots" = "Conectați punctele";
 "scan.almostDone" = "Aproape gata";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Înregistrare palme";
 "scan.verifyingPalm" = "Verificare palmă";
 "scan.successTitleVerified" = "Verificat";

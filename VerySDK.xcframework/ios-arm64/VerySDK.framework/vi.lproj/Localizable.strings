@@ -90,6 +90,7 @@
 "scan.showGesture" = "Hiển thị cử chỉ";
 "scan.connectDots" = "Nối các chấm";
 "scan.almostDone" = "Sắp xong";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Đang đăng ký lòng bàn tay";
 "scan.verifyingPalm" = "Đang xác minh lòng bàn tay";
 "scan.successTitleVerified" = "Đã xác minh";

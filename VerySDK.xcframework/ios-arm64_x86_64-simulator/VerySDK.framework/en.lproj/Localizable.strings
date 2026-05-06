@@ -74,6 +74,7 @@
 "scan.showGesture" = "Show gesture";
 "scan.connectDots" = "Connect the dots";
 "scan.almostDone" = "Almost done";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Registering palms";
 "scan.verifyingPalm" = "Verifying palm";
 "scan.successTitleVerified" = "Verified";

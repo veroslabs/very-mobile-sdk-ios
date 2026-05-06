@@ -92,6 +92,7 @@
 "scan.showGesture" = "Ukažte gesto";
 "scan.connectDots" = "Spojte body";
 "scan.almostDone" = "Skoro hotovo";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Registrace dlaní";
 "scan.verifyingPalm" = "Ověřování dlaně";
 "scan.successTitleVerified" = "Ověřeno";

@@ -90,6 +90,7 @@
 "scan.showGesture" = "Jesti gösterin";
 "scan.connectDots" = "Noktaları birleştirin";
 "scan.almostDone" = "Neredeyse bitti";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Avuç içleri kaydediliyor";
 "scan.verifyingPalm" = "Avuç içi doğrulanıyor";
 "scan.successTitleVerified" = "Doğrulandı";

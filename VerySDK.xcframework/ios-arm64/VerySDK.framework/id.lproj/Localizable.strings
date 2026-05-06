@@ -90,6 +90,7 @@
 "scan.showGesture" = "Tampilkan gerakan";
 "scan.connectDots" = "Hubungkan titik-titik";
 "scan.almostDone" = "Hampir selesai";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Mendaftarkan telapak tangan";
 "scan.verifyingPalm" = "Memverifikasi telapak tangan";
 "scan.successTitleVerified" = "Terverifikasi";

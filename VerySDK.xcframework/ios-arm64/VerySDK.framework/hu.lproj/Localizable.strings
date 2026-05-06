@@ -92,6 +92,7 @@
 "scan.showGesture" = "Mutassa a gesztust";
 "scan.connectDots" = "Kösse össze a pontokat";
 "scan.almostDone" = "Majdnem kész";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Tenyerek regisztrálása";
 "scan.verifyingPalm" = "Tenyér ellenőrzése";
 "scan.successTitleVerified" = "Ellenőrizve";

@@ -169,6 +169,7 @@
 "scan.showGesture" = "显示手势";
 "scan.connectDots" = "连接圆点";
 "scan.almostDone" = "即将完成";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "正在注册手掌";
 "scan.verifyingPalm" = "正在验证手掌";
 "scan.successTitleVerified" = "验证成功";

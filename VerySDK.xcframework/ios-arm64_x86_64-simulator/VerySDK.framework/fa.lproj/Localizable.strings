@@ -92,6 +92,7 @@
 "scan.showGesture" = "ژست را نشان دهید";
 "scan.connectDots" = "نقاط را به هم وصل کنید";
 "scan.almostDone" = "تقریباً تمام شد";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "در حال ثبت کف دست‌ها";
 "scan.verifyingPalm" = "در حال تأیید کف دست";
 "scan.successTitleVerified" = "تأیید شد";

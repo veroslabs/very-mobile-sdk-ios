@@ -90,6 +90,7 @@
 "scan.showGesture" = "제스처 표시";
 "scan.connectDots" = "점 연결하기";
 "scan.almostDone" = "거의 완료";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "손바닥 등록 중";
 "scan.verifyingPalm" = "손바닥 인증 중";
 "scan.successTitleVerified" = "인증 완료";

@@ -90,6 +90,7 @@
 "scan.showGesture" = "Toon gebaar";
 "scan.connectDots" = "Verbind de punten";
 "scan.almostDone" = "Bijna klaar";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Handpalmen registreren";
 "scan.verifyingPalm" = "Handpalm verifiëren";
 "scan.successTitleVerified" = "Geverifieerd";

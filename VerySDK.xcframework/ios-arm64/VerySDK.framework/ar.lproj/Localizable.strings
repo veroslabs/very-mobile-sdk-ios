@@ -90,6 +90,7 @@
 "scan.showGesture" = "أظهر الإيماءة";
 "scan.connectDots" = "صل النقاط";
 "scan.almostDone" = "أوشك على الانتهاء";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "جارٍ تسجيل الكفوف";
 "scan.verifyingPalm" = "جارٍ التحقق من الكف";
 "scan.successTitleVerified" = "تم التحقق";

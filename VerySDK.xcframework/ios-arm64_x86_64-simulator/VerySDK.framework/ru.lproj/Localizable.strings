@@ -90,6 +90,7 @@
 "scan.showGesture" = "Покажите жест";
 "scan.connectDots" = "Соедините точки";
 "scan.almostDone" = "Почти готово";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Регистрация ладоней";
 "scan.verifyingPalm" = "Проверка ладони";
 "scan.successTitleVerified" = "Подтверждено";

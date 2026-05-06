@@ -92,6 +92,7 @@
 "scan.showGesture" = "අභිනය පෙන්වන්න";
 "scan.connectDots" = "ලක්ෂ්‍ය සම්බන්ධ කරන්න";
 "scan.almostDone" = "බොහෝ දුරට සම්පූර්ණයි";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "අත්ල ලියාපදිංචි කරමින්";
 "scan.verifyingPalm" = "අත්ල සත්‍යාපනය කරමින්";
 "scan.successTitleVerified" = "සත්‍යාපිතයි";

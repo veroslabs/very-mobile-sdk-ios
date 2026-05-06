@@ -92,6 +92,7 @@
 "scan.showGesture" = "ສະແດງທ່າທາງ";
 "scan.connectDots" = "ເຊື່ອಮຈຸດ";
 "scan.almostDone" = "ເກືອບສຳເລັດແລ້ວ";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "ກຳລັງລົງທະບຽນຝາມື";
 "scan.verifyingPalm" = "ກຳລັງຢືນຢັນຝາມື";
 "scan.successTitleVerified" = "ຢືນຢັນແລ້ວ";

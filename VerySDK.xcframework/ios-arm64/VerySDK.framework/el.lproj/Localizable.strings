@@ -92,6 +92,7 @@
 "scan.showGesture" = "Δείξτε τη χειρονομία";
 "scan.connectDots" = "Ενώστε τα σημεία";
 "scan.almostDone" = "Σχεδόν έτοιμο";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Εγγραφή παλαμών";
 "scan.verifyingPalm" = "Επαλήθευση παλάμης";
 "scan.successTitleVerified" = "Επαληθεύτηκε";

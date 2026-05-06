@@ -92,6 +92,7 @@
 "scan.showGesture" = "Pokažite gesto";
 "scan.connectDots" = "Povežite pike";
 "scan.almostDone" = "Skoraj končano";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Registriranje dlani";
 "scan.verifyingPalm" = "Preverjanje dlani";
 "scan.successTitleVerified" = "Preverjeno";

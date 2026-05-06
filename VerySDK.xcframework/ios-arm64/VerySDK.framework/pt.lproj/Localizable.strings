@@ -90,6 +90,7 @@
 "scan.showGesture" = "Mostre o gesto";
 "scan.connectDots" = "Conecte os pontos";
 "scan.almostDone" = "Quase pronto";
+"scan.livenessThanks" = "Thanks for verifying";
 "scan.registeringPalms" = "Registrando palmas";
 "scan.verifyingPalm" = "Verificando palma";
 "scan.successTitleVerified" = "Verificado";
