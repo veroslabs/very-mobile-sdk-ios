@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'VerySDK'
-  s.version          = '1.0.42'
+  s.version          = '1.0.43'
   s.summary          = 'Very SDK — palm biometric verification'
   s.description      = 'Palm biometric verification SDK for iOS.'
   s.homepage         = 'https://very.org'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author           = { 'Very Mobile Inc.' => 'mail@very.org' }
-  s.source           = { :git => 'https://github.com/veroslabs/very-sdk-ios.git', :tag => '1.0.42' }
+  s.source           = { :git => 'https://github.com/veroslabs/very-sdk-ios.git', :tag => '1.0.43' }
   s.platform         = :ios, '13.0'
   s.swift_version    = '5.0'
 
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'Bundled' do |b|
     b.dependency 'VerySDK/Core'
-    b.source_files    = 'BundledModel/*.swift'
+    # No source_files here — adding Swift sources creates a Pod target module
+    # named 'VerySDK' that shadows the vendored xcframework module, breaking
+    # all downstream 'import VerySDK' (VER-485 / Zar iOS compilation failure).
     b.resource_bundle = { 'VerySDK_BundledModel' => ['BundledModel/packed_data.bin'] }
   end
 end
