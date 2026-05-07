@@ -5400,20 +5400,6 @@
       },
       {
         "kind": "Import",
-        "name": "Security",
-        "printedName": "Security",
-        "declKind": "Import",
-        "moduleName": "VerySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "VerySDK"
-      },
-      {
-        "kind": "Import",
         "name": "CoreText",
         "printedName": "CoreText",
         "declKind": "Import",
@@ -5521,6 +5507,13 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "VerySDK"
       },
@@ -7596,7 +7589,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 43908,
+      "offset": 44462,
       "length": 5,
       "value": "false"
     },
@@ -7606,34 +7599,6 @@
       "offset": 170,
       "length": 18,
       "value": "\"VerySDK.ScanViewController\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/LivenessCheckViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1069,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/LivenessCheckViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1558,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/LivenessCheckViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1638,
-      "length": 6,
-      "value": "\"dark\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/LivenessCheckViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
-      "length": 27,
-      "value": "\"VerySDK.LivenessCheckViewController\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/InterFont.swift",
@@ -9395,14 +9360,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKExitHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 860,
+      "offset": 1363,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKExitHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5733,
+      "offset": 6700,
       "length": 5,
       "value": "false"
     },
@@ -9535,23 +9500,58 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDKCore.swift",
       "kind": "StringLiteral",
-      "offset": 1126,
+      "offset": 1218,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDKCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDKCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDKCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1798,
       "length": 28,
       "value": "\"com.very.sdk.callbackQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDKCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 1585,
+      "offset": 2257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDKCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 2225,
+      "offset": 2897,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/LivenessApi.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 29,
+      "value": "\"https:\/\/api.very.org\/v1\/sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/LivenessApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1300,
+      "length": 2,
+      "value": "15"
     }
   ]
 }

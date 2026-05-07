@@ -42,30 +42,29 @@ See [`react-native/README.md`](react-native/README.md) for full RN integration d
 
 ## Asset Loading: Bundled vs Slim
 
-The native palm-recognition asset (~8 MB on iOS, ~18 MB per ABI on Android) ships **bundled inside the SDK by default**. Your app works offline and the first scan is instant. If you'd rather keep your binary small and have the SDK fetch the asset from CDN on first scan, opt into slim mode per platform.
+The native palm-recognition asset (~8 MB on iOS, ~18 MB per ABI on Android) can either ship inside the SDK (instant first scan, larger binary) or be fetched from CDN on first scan (smaller binary, ~5–15 s one-time download). Defaults differ per artifact:
 
-| Mode              | App size impact                       | First-scan UX              | Works offline        |
-|-------------------|---------------------------------------|----------------------------|----------------------|
-| Bundled (default) | +8 MB iOS, +18 MB per ABI Android     | instant                    | yes                  |
-| Slim              | none                                  | one-time download (5–15 s) | no (first scan only) |
+| Artifact                                                       | Default | Rationale                                              |
+|----------------------------------------------------------------|---------|--------------------------------------------------------|
+| `pod 'VerySDK'` / `org.very:sdk` (full SDK)                    | Bundled | Auth flow needs offline-capable first scan             |
+| `pod 'VeryAILiveness'` / `org.very:liveness` (liveness-only)   | Slim    | Liveness partners optimize for smallest install size   |
 
 Cached assets persist across launches; the download only happens once.
 
-**iOS — opt into slim**
+**Switch the full SDK to slim:**
 
 ```ruby
-# CocoaPods
+# iOS — CocoaPods
 pod 'VerySDK/Core'
 ```
 
 ```swift
-// SPM
+// iOS — SPM
 .product(name: "VerySDKSlim", package: "very-sdk-ios")
 ```
 
-**Android — opt into slim** (in your **app** `build.gradle`):
-
 ```gradle
+// Android — in your app build.gradle
 android {
     packaging {
         jniLibs {
@@ -75,12 +74,21 @@ android {
 }
 ```
 
+**Switch the liveness SDK to bundled:**
+
+```ruby
+# iOS — CocoaPods
+pod 'VeryAILiveness/Bundled'
+```
+
+For Android `org.very:liveness`, drop a matching `libPalmAPISaas.so` into your **app's** `src/main/jniLibs/<abi>/`. AGP merges it into the APK and the SDK picks it up automatically — no build flag.
+
 **CDN endpoints** (allowlist if your network restricts egress):
 
-| Asset                                | Primary                                    | Backup                                    |
-|--------------------------------------|--------------------------------------------|-------------------------------------------|
-| Android `libPalmAPISaas.so` per ABI  | `assets.very.org/sdk/data/<abi>/...`       | `r2.assets.very.org/sdk/v1/<abi>/...`     |
-| iOS `packed_data.bin`                | `assets.very.org/sdk/data/packed_data.bin` | `r2.assets.very.org/sdk/v1/packed_data.bin` |
+| Asset                                | Primary                                       | Backup                                          |
+|--------------------------------------|-----------------------------------------------|-------------------------------------------------|
+| Android `libPalmAPISaas.so` per ABI  | `assets.very.org/sdk/v2/<abi>/libPalmAPISaas.so` | `r2.assets.very.org/sdk/v2/<abi>/libPalmAPISaas.so` |
+| iOS `packed_data.bin`                | `assets.very.org/sdk/v2/packed_data.bin`      | `r2.assets.very.org/sdk/packed_data.bin`        |
 
 ## Quick Start
 
