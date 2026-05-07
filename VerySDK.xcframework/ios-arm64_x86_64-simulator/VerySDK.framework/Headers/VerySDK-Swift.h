@@ -418,56 +418,40 @@ SWIFT_CLASS("_TtC7VerySDK10VeryResult")
 
 @class UIViewController;
 
-/// Main SDK entry point for Very SDK
-/// Provides methods to start palm verification flow
+/// Main SDK entry point for the <em>full</em> Very SDK distribution
+/// (<code>VerySDK.framework</code>). Provides palm-biometric <code>authenticate()</code> —
+/// starts the consent → email-verify → enroll/verify flow.
+/// Liveness-only consumers should depend on <code>VeryAILiveness.framework</code>
+/// instead and use <code>VeryAILiveness.check()</code>. This class is <em>not</em> present
+/// in that framework.
 SWIFT_CLASS("_TtC7VerySDK7VerySDK")
 @interface VerySDK : NSObject
-/// Start palm verification flow with config
-/// This will show the ConsentViewController first, then proceed to camera scanning if user continues
+/// Start palm verification flow with config.
+/// Shows the ConsentViewController first, then proceeds to camera scanning if user continues.
 /// \param viewController The view controller to present from
 ///
 /// \param config The VeryConfig configuration
 ///
-/// \param callback Completion handler with VeryResult
+/// \param completion Completion handler with VeryResult
 ///
 + (void)authenticateFrom:(UIViewController * _Nonnull)viewController config:(VeryConfig * _Nonnull)config presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nonnull)(VeryResult * _Nonnull))completion;
-/// Run a liveness check — opens the same scan UI as <code>authenticate</code> but
-/// captures a single palm with no createSession / verify / enroll API
-/// calls. Used by partners that just need to confirm a live human palm
-/// without going through full enrollment or verification.
-/// The host completion fires with <code>VeryResult(code: "success", ...)</code> once
-/// the capture completes, or a cancel/error result if the user dismisses
-/// the page or the camera/native lib fails.
-/// \param viewController The view controller to present from.
-///
-/// \param config Optional VeryConfig for theme/language/debug logging.
-/// sdkKey/userId are ignored in liveness mode.
-///
-/// \param presentationStyle How the page is presented (default <code>.modal</code>).
-///
-/// \param completion Result callback — fired once on completion.
-///
-+ (void)livenessCheckFrom:(UIViewController * _Nonnull)viewController config:(VeryConfig * _Nonnull)config presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nonnull)(VeryResult * _Nonnull))completion;
-/// Start palm verification flow (legacy method for backward compatibility)
+/// Start palm verification flow (legacy method for backward compatibility).
 + (void)startPalmVerificationFrom:(UIViewController * _Nonnull)viewController presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
-/// Check if palm verification was successful
+/// Check if palm verification was successful.
 /// \param result The result from completion handler
 ///
 ///
 /// returns:
 /// true if verification was successful
 + (BOOL)isVerificationSuccess:(BOOL)result SWIFT_WARN_UNUSED_RESULT;
-/// Check if palm verification was cancelled
+/// Check if palm verification was cancelled.
 /// \param result The result from completion handler
 ///
 ///
 /// returns:
 /// true if verification was cancelled
 + (BOOL)isVerificationCancelled:(BOOL)result SWIFT_WARN_UNUSED_RESULT;
-/// Check if SDK is supported on this device
-///
-/// returns:
-/// true if SDK is supported
+/// Check if SDK is supported on this device.
 + (BOOL)isSupport SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "isSupported");
 + (BOOL)isSupported SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -935,56 +919,40 @@ SWIFT_CLASS("_TtC7VerySDK10VeryResult")
 
 @class UIViewController;
 
-/// Main SDK entry point for Very SDK
-/// Provides methods to start palm verification flow
+/// Main SDK entry point for the <em>full</em> Very SDK distribution
+/// (<code>VerySDK.framework</code>). Provides palm-biometric <code>authenticate()</code> —
+/// starts the consent → email-verify → enroll/verify flow.
+/// Liveness-only consumers should depend on <code>VeryAILiveness.framework</code>
+/// instead and use <code>VeryAILiveness.check()</code>. This class is <em>not</em> present
+/// in that framework.
 SWIFT_CLASS("_TtC7VerySDK7VerySDK")
 @interface VerySDK : NSObject
-/// Start palm verification flow with config
-/// This will show the ConsentViewController first, then proceed to camera scanning if user continues
+/// Start palm verification flow with config.
+/// Shows the ConsentViewController first, then proceeds to camera scanning if user continues.
 /// \param viewController The view controller to present from
 ///
 /// \param config The VeryConfig configuration
 ///
-/// \param callback Completion handler with VeryResult
+/// \param completion Completion handler with VeryResult
 ///
 + (void)authenticateFrom:(UIViewController * _Nonnull)viewController config:(VeryConfig * _Nonnull)config presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nonnull)(VeryResult * _Nonnull))completion;
-/// Run a liveness check — opens the same scan UI as <code>authenticate</code> but
-/// captures a single palm with no createSession / verify / enroll API
-/// calls. Used by partners that just need to confirm a live human palm
-/// without going through full enrollment or verification.
-/// The host completion fires with <code>VeryResult(code: "success", ...)</code> once
-/// the capture completes, or a cancel/error result if the user dismisses
-/// the page or the camera/native lib fails.
-/// \param viewController The view controller to present from.
-///
-/// \param config Optional VeryConfig for theme/language/debug logging.
-/// sdkKey/userId are ignored in liveness mode.
-///
-/// \param presentationStyle How the page is presented (default <code>.modal</code>).
-///
-/// \param completion Result callback — fired once on completion.
-///
-+ (void)livenessCheckFrom:(UIViewController * _Nonnull)viewController config:(VeryConfig * _Nonnull)config presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nonnull)(VeryResult * _Nonnull))completion;
-/// Start palm verification flow (legacy method for backward compatibility)
+/// Start palm verification flow (legacy method for backward compatibility).
 + (void)startPalmVerificationFrom:(UIViewController * _Nonnull)viewController presentationStyle:(enum VeryPresentationStyle)presentationStyle completion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
-/// Check if palm verification was successful
+/// Check if palm verification was successful.
 /// \param result The result from completion handler
 ///
 ///
 /// returns:
 /// true if verification was successful
 + (BOOL)isVerificationSuccess:(BOOL)result SWIFT_WARN_UNUSED_RESULT;
-/// Check if palm verification was cancelled
+/// Check if palm verification was cancelled.
 /// \param result The result from completion handler
 ///
 ///
 /// returns:
 /// true if verification was cancelled
 + (BOOL)isVerificationCancelled:(BOOL)result SWIFT_WARN_UNUSED_RESULT;
-/// Check if SDK is supported on this device
-///
-/// returns:
-/// true if SDK is supported
+/// Check if SDK is supported on this device.
 + (BOOL)isSupport SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "isSupported");
 + (BOOL)isSupported SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

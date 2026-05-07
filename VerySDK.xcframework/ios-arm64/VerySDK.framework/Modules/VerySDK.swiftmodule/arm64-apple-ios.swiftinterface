@@ -111,7 +111,6 @@ import _SwiftConcurrencyShims
 }
 @_inheritsConvenienceInitializers @objc public class VerySDK : ObjectiveC.NSObject {
   @objc public static func authenticate(from viewController: UIKit.UIViewController, config: VeryConfig, presentationStyle: VeryPresentationStyle = .modal, completion: @escaping (VeryResult) -> Swift.Void)
-  @objc public static func livenessCheck(from viewController: UIKit.UIViewController, config: VeryConfig = VeryConfig(), presentationStyle: VeryPresentationStyle = .modal, completion: @escaping (VeryResult) -> Swift.Void)
   @objc public static func startPalmVerification(from viewController: UIKit.UIViewController, presentationStyle: VeryPresentationStyle = .modal, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   @objc public static func isVerificationSuccess(_ result: Swift.Bool) -> Swift.Bool
   @objc public static func isVerificationCancelled(_ result: Swift.Bool) -> Swift.Bool
