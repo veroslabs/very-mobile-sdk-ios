@@ -88,7 +88,7 @@ For Android `org.very:liveness`, drop a matching `libPalmAPISaas.so` into your *
 | Asset                                | Primary                                       | Backup                                          |
 |--------------------------------------|-----------------------------------------------|-------------------------------------------------|
 | Android `libPalmAPISaas.so` per ABI  | `assets.very.org/sdk/v2/<abi>/libPalmAPISaas.so` | `r2.assets.very.org/sdk/v2/<abi>/libPalmAPISaas.so` |
-| iOS `packed_data.bin`                | `assets.very.org/sdk/v2/packed_data.bin`      | `r2.assets.very.org/sdk/packed_data.bin`        |
+| iOS `packed_data.bin`                | `assets.very.org/sdk/v2/packed_data.bin`      | `r2.assets.very.org/sdk/v2/sdk_packed_data.bin` |
 
 ## Quick Start
 
@@ -122,7 +122,7 @@ VerySDK.authenticate(from: self, config: config) { result in
 VeryConfig *config = [[VeryConfig alloc] init];
 config.sdkKey = @"your_sdk_key";
 
-[VerySDK authenticateFrom:self config:config completion:^(VeryResult *result) {
+[VerySDK authenticateFrom:self config:config presentationStyle:VeryPresentationStyleModal completion:^(VeryResult *result) {
     if (result.isSuccess) {
         NSLog(@"userId: %@, signedToken: %@", result.userId, result.signedToken);
     } else {
